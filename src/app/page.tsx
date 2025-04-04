@@ -2,6 +2,8 @@ import InteractiveCard from '@/components/InteractiveCard';
 import storiesData from '@/data/stories.json';
 import type { Story } from '@/types';
 
+export const dynamic = 'force-dynamic';
+
 function getRandomStory(stories: Story[]) {
   return stories[Math.floor(Math.random() * stories.length)];
 }
