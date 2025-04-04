@@ -2,10 +2,11 @@ import { Metadata } from 'next';
 import InteractiveCard from '@/components/InteractiveCard';
 import stories from '../../../data/stories.json';
 
-type PageParams = { params: { slug: string } };
+type PageParams = { params: Promise<{ slug: string }> };
 
 export default async function Page({ params }: PageParams) {
-  const story = stories.find((s) => s.slug === params.slug);
+  const { slug } = await params;
+  const story = stories.find((s) => s.slug === slug);
   
   if (!story) {
     return <div className="p-4">Story not found</div>;
@@ -36,7 +37,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: PageParams): Promise<Metadata> {
-  const story = stories.find((s) => s.slug === params.slug);
+  const { slug } = await params;
+  const story = stories.find((s) => s.slug === slug);
   
   if (!story) {
     return {
