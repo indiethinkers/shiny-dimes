@@ -48,10 +48,10 @@ export async function generateMetadata({ params }: PageParams): Promise<Metadata
 
   return {
     title: `3 by 5 | ${story.title}`,
-    description: story.summary,
+    description: story.quote,
     openGraph: {
       title: `3 by 5 | ${story.title}`,
-      description: story.summary,
+      description: story.quote,
       type: 'article',
       authors: [story.author],
     },
