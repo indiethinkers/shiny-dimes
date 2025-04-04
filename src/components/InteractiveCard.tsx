@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import Card from './Card';
 import type { Story } from '@/types';
 
@@ -11,6 +12,7 @@ export default function InteractiveCard({
   initialStory: Story;
   stories: Story[];
 }) {
+  const router = useRouter();
   const [currentStory, setCurrentStory] = useState(initialStory);
 
   const getRandomStory = () => stories[Math.floor(Math.random() * stories.length)];
@@ -19,7 +21,9 @@ export default function InteractiveCard({
     const handleKeyPress = (event: KeyboardEvent) => {
       if (event.code === 'Space') {
         event.preventDefault();
-        setCurrentStory(getRandomStory());
+        const story = getRandomStory();
+        setCurrentStory(story);
+        router.replace(`/card/${story.slug}`, { scroll: false });
       }
     };
 
@@ -34,6 +38,7 @@ export default function InteractiveCard({
       blurb={currentStory.quote}
       author={currentStory.author}
       link={currentStory.url}
+      slug={currentStory.slug}
     />
   );
 }
