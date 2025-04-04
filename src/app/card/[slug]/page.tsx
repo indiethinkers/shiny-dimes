@@ -2,43 +2,11 @@ import { Metadata } from 'next';
 import InteractiveCard from '@/components/InteractiveCard';
 import stories from '../../../data/stories.json';
 
-type Props = {
-  params: {
-    slug: string;
-  };
-  searchParams: { [key: string]: string | string[] | undefined };
-};
+type PageParams = { params: { slug: string } };
 
-export async function generateStaticParams() {
-  return stories.map((story) => ({
-    slug: story.slug,
-  }));
-}
-
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export default async function Page({ params }: PageParams) {
   const story = stories.find((s) => s.slug === params.slug);
   
-  if (!story) {
-    return {
-      title: 'Story Not Found',
-    };
-  }
-
-  return {
-    title: `3 by 5 | ${story.title}`,
-    description: story.summary,
-    openGraph: {
-      title: `3 by 5 | ${story.title}`,
-      description: story.summary,
-      type: 'article',
-      authors: [story.author],
-    },
-  };
-}
-
-export default function StoryPage({ params }: Props) {
-  const story = stories.find((s) => s.slug === params.slug);
-
   if (!story) {
     return <div className="p-4">Story not found</div>;
   }
@@ -59,4 +27,31 @@ export default function StoryPage({ params }: Props) {
       </a>
     </div>
   );
+}
+
+export async function generateStaticParams() {
+  return stories.map((story) => ({
+    slug: story.slug,
+  }));
+}
+
+export async function generateMetadata({ params }: PageParams): Promise<Metadata> {
+  const story = stories.find((s) => s.slug === params.slug);
+  
+  if (!story) {
+    return {
+      title: 'Story Not Found',
+    };
+  }
+
+  return {
+    title: `3 by 5 | ${story.title}`,
+    description: story.summary,
+    openGraph: {
+      title: `3 by 5 | ${story.title}`,
+      description: story.summary,
+      type: 'article',
+      authors: [story.author],
+    },
+  };
 }
