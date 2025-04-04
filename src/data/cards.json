@@ -1,0 +1,25 @@
+{
+  "cards": [
+    {
+      "id": "1",
+      "title": "The Art of Noticing",
+      "blurb": "In a world of endless distractions, the ability to notice the small details might be our most valuable skill.",
+      "author": "Rob Walker",
+      "link": "https://robwalker.substack.com/p/the-art-of-noticing"
+    },
+    {
+      "id": "2",
+      "title": "Why Books Don't Work",
+      "blurb": "Books are surprisingly bad at conveying knowledge, and readers mostly don't realize it.",
+      "author": "Andy Matuschak",
+      "link": "https://andymatuschak.substack.com/p/why-books-dont-work"
+    },
+    {
+      "id": "3",
+      "title": "The Bus Ticket Theory of Genius",
+      "blurb": "What determines people who achieve extraordinary things? The answer might surprise you.",
+      "author": "Paul Graham",
+      "link": "https://paulgraham.substack.com/p/the-bus-ticket-theory-of-genius"
+    }
+  ]
+}
