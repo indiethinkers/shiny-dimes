@@ -7,10 +7,9 @@ interface CardProps {
   blurb: string
   author: string
   link: string
-  slug: string
 }
 
-export default function Card({ title, blurb, author, link, slug }: CardProps) {
+export default function Card({ title, blurb, author, link }: CardProps) {
   return (
     <div className="flex justify-center items-center p-4 flex-col">
       <div className="w-[600px] h-[360px] bg-[#f0f0f2] shadow-md rounded-sm overflow-hidden border border-[#d0d0d0] flex flex-col v0-styling">

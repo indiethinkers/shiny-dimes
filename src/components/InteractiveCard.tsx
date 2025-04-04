@@ -38,7 +38,6 @@ export default function InteractiveCard({
       blurb={currentStory.quote}
       author={currentStory.author}
       link={currentStory.url}
-      slug={currentStory.slug}
     />
   );
 }
