@@ -23,7 +23,7 @@ export default function InteractiveCard({
         event.preventDefault();
         const story = getRandomStory();
         setCurrentStory(story);
-        router.push(`/card/${story.slug}`, { scroll: false });
+        router.push(`/dime/${story.slug}`, { scroll: false });
       }
     };
 
