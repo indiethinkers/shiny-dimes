@@ -47,10 +47,10 @@ export async function generateMetadata({ params }: PageParams): Promise<Metadata
   }
 
   return {
-    title: `3 by 5 | ${story.title}`,
+    title: `Dimes | ${story.title}`,
     description: story.quote,
     openGraph: {
-      title: `3 by 5 | ${story.title}`,
+      title: `Dimes | ${story.title}`,
       description: story.quote,
       type: 'article',
       authors: [story.author],

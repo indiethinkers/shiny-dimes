@@ -17,6 +17,7 @@ export default function Home() {
         initialStory={initialStory} 
         stories={storiesData}
       />
+
       <a
         href="https://hunter.vc"
         target="_blank"

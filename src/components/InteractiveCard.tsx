@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import Card from './Card';
+import TypeWriter from './TypeWriter';
 import type { Story } from '@/types';
 
 export default function InteractiveCard({ 
@@ -32,12 +32,25 @@ export default function InteractiveCard({
   }, []);
 
   return (
-    <Card
-      key={currentStory.id}
-      title={currentStory.title}
-      blurb={currentStory.quote}
-      author={currentStory.author}
-      link={currentStory.url}
-    />
+    <div className="relative">
+      <TypeWriter
+        key={currentStory.id}
+        title={currentStory.title}
+        blurb={currentStory.quote}
+        author={currentStory.author}
+        link={currentStory.url}
+      />
+      <div className="fixed bottom-4 left-4 text-sm text-gray-500">
+        <span>hit spacebar for another dime // </span>
+        <a
+          href={currentStory.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-gray-800 transition-colors"
+        >
+          view essay →
+        </a>
+      </div>
+    </div>
   );
 }
