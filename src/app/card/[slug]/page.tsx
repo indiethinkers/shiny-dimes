@@ -14,6 +14,27 @@ export default async function Page({ params }: PageParams) {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 relative">
+      <a
+        href="/"
+        className="fixed top-4 left-4 text-sm text-gray-500 hover:text-gray-800 transition-colors font-medium"
+      >
+        shiny dimes
+      </a>
+      <div className="fixed top-4 right-4 flex items-center gap-4">
+        <img
+          src="/google.svg"
+          alt="Google"
+          className="h-8 w-auto hidden"
+        />
+        <a
+          href="https://chrome.google.com/webstore"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm text-gray-500 hover:text-gray-800 transition-colors font-medium"
+        >
+          download chrome extension
+        </a>
+      </div>
       <InteractiveCard 
         initialStory={story} 
         stories={stories}
@@ -47,10 +68,10 @@ export async function generateMetadata({ params }: PageParams): Promise<Metadata
   }
 
   return {
-    title: `Dimes | ${story.title}`,
+    title: `Shiny Dimes | ${story.title}`,
     description: story.quote,
     openGraph: {
-      title: `Dimes | ${story.title}`,
+      title: `Shiny Dimes | ${story.title}`,
       description: story.quote,
       type: 'article',
       authors: [story.author],

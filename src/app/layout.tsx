@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dimes",
+  title: "Shiny Dimes",
   description: "A curated collection of quotes from the brightest minds on the internet.",
   icons: {
     icon: [

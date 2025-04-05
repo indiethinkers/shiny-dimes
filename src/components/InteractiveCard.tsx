@@ -23,7 +23,7 @@ export default function InteractiveCard({
         event.preventDefault();
         const story = getRandomStory();
         setCurrentStory(story);
-        router.replace(`/card/${story.slug}`, { scroll: false });
+        router.push(`/card/${story.slug}`, { scroll: false });
       }
     };
 
@@ -41,15 +41,7 @@ export default function InteractiveCard({
         link={currentStory.url}
       />
       <div className="fixed bottom-4 left-4 text-sm text-gray-500">
-        <span>hit spacebar for another dime // </span>
-        <a
-          href={currentStory.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-gray-800 transition-colors"
-        >
-          view essay →
-        </a>
+        <span>hit the spacebar for another dime</span>
       </div>
     </div>
   );

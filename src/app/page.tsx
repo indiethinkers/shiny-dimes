@@ -13,6 +13,27 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 relative">
+      <a
+        href="/"
+        className="fixed top-4 left-4 text-sm text-gray-500 hover:text-gray-800 transition-colors font-medium"
+      >
+        shiny dimes
+      </a>
+      <div className="fixed top-4 right-4 flex items-center gap-2">
+        <img
+          src="/google.svg"
+          alt="Google"
+          className="h-4 w-auto hidden"
+        />
+        <a
+          href="https://chrome.google.com/webstore"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm text-gray-500 hover:text-gray-800 transition-colors font-medium"
+        >
+          download chrome extension
+        </a>
+      </div>
       <InteractiveCard 
         initialStory={initialStory} 
         stories={storiesData}
