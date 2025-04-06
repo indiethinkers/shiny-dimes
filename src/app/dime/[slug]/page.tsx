@@ -1,4 +1,6 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
+
 import InteractiveCard from '@/components/InteractiveCard';
 import stories from '../../../data/stories.json';
 
@@ -14,12 +16,12 @@ export default async function Page({ params }: PageParams) {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 relative">
-      <a
+      <Link
         href="/"
         className="fixed top-4 left-4 text-sm text-gray-500 hover:text-gray-800 transition-colors font-medium"
       >
         shiny dimes
-      </a>
+      </Link>
       <div className="fixed top-4 right-4 flex items-center gap-4">
         <img
           src="/google.svg"
