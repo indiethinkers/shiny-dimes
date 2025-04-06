@@ -1,6 +1,8 @@
 import InteractiveCard from '@/components/InteractiveCard';
 import storiesData from '@/data/stories.json';
 import type { Story } from '@/types';
+import Link from 'next/link';
+import Image from 'next/image';
 
 export const dynamic = 'force-dynamic';
 
@@ -13,16 +15,18 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 relative">
-      <a
+      <Link
         href="/"
         className="fixed top-4 left-4 text-sm text-gray-500 hover:text-gray-800 transition-colors font-medium"
       >
         shiny dimes
-      </a>
+      </Link>
       <div className="fixed top-4 right-4 flex items-center gap-2">
-        <img
+        <Image
           src="/google.svg"
           alt="Google"
+          width={16}
+          height={16}
           className="h-4 w-auto hidden"
         />
         <a
