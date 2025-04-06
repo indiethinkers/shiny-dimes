@@ -10,7 +10,7 @@ interface TypeWriterProps {
 export default function TypeWriter({ blurb, link }: TypeWriterProps) {
   return (
     <div className="px-4">
-      <div className="w-[600px] min-h-[150px] font-mono flex flex-col items-center">
+      <div className="w-[640px] min-h-[150px] font-mono flex flex-col items-center">
         <div className="whitespace-pre-wrap leading-relaxed text-center">
           {blurb}
         </div>
