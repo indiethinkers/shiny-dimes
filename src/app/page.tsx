@@ -32,7 +32,7 @@ export default function Home() {
         <a
           href="https://chrome.google.com/webstore"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener"
           className="text-sm text-gray-500 hover:text-gray-800 transition-colors font-medium"
         >
           download chrome extension
@@ -44,12 +44,12 @@ export default function Home() {
       />
 
       <a
-        href="https://hunter.vc"
+        href="https://indiethinkers.com"
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener"
         className="fixed bottom-4 right-4 text-sm text-gray-500 hover:text-gray-800 transition-colors font-medium"
       >
-        by hunter labs
+        by indie thinkers
       </a>
     </div>
   );
