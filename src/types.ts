@@ -1,6 +1,5 @@
 export interface Story {
   id: number;
-  objectID: number;
   title: string;
   author: string;
   url: string;
@@ -8,6 +7,4 @@ export interface Story {
   quote: string;
   topic_names: string[];
   slug: string;
-  author_slug: string;
-  published_at: string;
 }

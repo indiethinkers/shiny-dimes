@@ -1,4 +1,4 @@
-import InteractiveCard from '@/components/InteractiveCard';
+import Card from '@/components/Card';
 import storiesData from '@/data/stories.json';
 import type { Story } from '@/types';
 import Link from 'next/link';
@@ -38,7 +38,7 @@ export default function Home() {
           download chrome extension
         </a>
       </div>
-      <InteractiveCard 
+      <Card 
         initialStory={initialStory} 
         stories={storiesData}
       />

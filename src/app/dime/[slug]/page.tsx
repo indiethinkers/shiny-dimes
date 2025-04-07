@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 
-import InteractiveCard from '@/components/InteractiveCard';
+import Card from '@/components/Card';
 import stories from '../../../data/stories.json';
 
 type PageParams = { params: Promise<{ slug: string }> };
@@ -37,7 +37,7 @@ export default async function Page({ params }: PageParams) {
           download chrome extension
         </a>
       </div>
-      <InteractiveCard 
+      <Card 
         initialStory={story} 
         stories={stories}
       />
