@@ -3,11 +3,34 @@ import storiesData from '@/data/stories.json';
 import type { Story } from '@/types';
 import Link from 'next/link';
 import Image from 'next/image';
+import { sample, sampleSize, without } from 'lodash';
 
 export const dynamic = 'force-dynamic';
 
+// Keep track of recently shown stories to avoid repetition
+let recentStories: string[] = [];
+const MAX_RECENT = 3; // Avoid repeating the last 3 stories
+
 function getRandomStory(stories: Story[]) {
-  return stories[Math.floor(Math.random() * stories.length)];
+  // Filter out recently shown stories
+  const availableStories = without(stories, ...stories.filter(story => recentStories.includes(story.slug)));
+  
+  // If we've filtered out all stories, reset the history
+  if (availableStories.length === 0) {
+    recentStories = [];
+    return sample(stories)!;
+  }
+
+  // Get a random story from available ones
+  const selectedStory = sample(availableStories)!;
+  
+  // Update recent stories
+  recentStories.push(selectedStory.slug);
+  if (recentStories.length > MAX_RECENT) {
+    recentStories.shift();
+  }
+  
+  return selectedStory;
 }
 
 export default function Home() {
