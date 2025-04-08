@@ -2,7 +2,8 @@
   "manifest_version": 3,
   "name": "Shiny Dimes",
   "version": "1.0",
-  "description": "Get a new shiny dime every time you open a new tab",
+  "description": "Get a new quote when you open a tab.",
+  "author": "Indie Thinkers",
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
