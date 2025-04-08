@@ -49,6 +49,9 @@ function updateStory(story) {
   currentStory = story;
   document.getElementById('quote').textContent = story.quote;
   document.getElementById('essay-link').href = story.url;
+  const stored = localStorage.getItem(STORAGE_KEY);
+  const seenCount = stored ? JSON.parse(stored).length : 0;
+  document.getElementById('seen-count').textContent = `${seenCount} dimes seen`;
 }
 
 function handleKeyPress(event) {
