@@ -47,7 +47,7 @@ export default async function Page({ params }: PageParams) {
         rel="noopener noreferrer"
         className="fixed bottom-4 right-4 text-sm text-gray-500 hover:text-gray-800 transition-colors font-medium"
       >
-        by indie thinkers
+        by hunter labs
       </a>
     </div>
   );

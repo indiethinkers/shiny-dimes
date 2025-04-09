@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 
 import type { Story } from '@/types';
-import { getSeenCount } from '@/utils/seenCount';
+import TypewriterQuote from './TypewriterQuote';
 
 export default function Card({ 
   initialStory, 
@@ -16,7 +16,6 @@ export default function Card({
   const router = useRouter();
   const [currentStory, setCurrentStory] = useState(initialStory);
   const [mounted, setMounted] = useState(false);
-  const [seenCount, setSeenCount] = useState(0); // Start at 0 for SSR
   
   // Keep track of seen stories in memory
   const STORAGE_KEY = 'seen-stories';
@@ -34,8 +33,7 @@ export default function Card({
     if (!seenStories.includes(story.slug)) {
       seenStories.push(story.slug);
       localStorage.setItem(STORAGE_KEY, JSON.stringify(seenStories));
-      setSeenCount(seenStories.length);
-    }
+      }
   };
 
   const getRandomStory = () => {
@@ -48,8 +46,7 @@ export default function Card({
     // If we've seen all stories, clear storage and start over
     if (unseenStories.length === 0) {
       localStorage.removeItem(STORAGE_KEY);
-      setSeenCount(0);
-      return stories[Math.floor(Math.random() * stories.length)];
+        return stories[Math.floor(Math.random() * stories.length)];
     }
     
     // Return a random unseen story
@@ -59,7 +56,6 @@ export default function Card({
   // Initialize on mount
   useEffect(() => {
     setMounted(true);
-    setSeenCount(getSeenCount());
     updateSeenStories(initialStory);
   }, []);
 
@@ -82,16 +78,24 @@ export default function Card({
     <div className="relative">
       <div className="px-4" key={currentStory.id}>
         <div className="w-[640px] min-h-[150px] font-mono flex flex-col items-center">
-          <div className="whitespace-pre-wrap leading-relaxed text-center">
-            {currentStory.quote}
-          </div>
+          <TypewriterQuote quote={currentStory.quote} />
           <div className="mt-6">
             <a
               href={currentStory.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-500 hover:text-gray-800 transition-colors text-sm"
-            >
+              className="text-sm text-gray-500 hover:text-gray-700 transition-colors"
+              style={{
+                opacity: 0,
+                animation: 'fadeIn 2s ease-in-out forwards',
+                animationDelay: '0.5s'
+              }}>
+              <style jsx>{`
+                @keyframes fadeIn {
+                  from { opacity: 0; }
+                  to { opacity: 1; }
+                }
+              `}</style>
               (view essay)
             </a>
           </div>
@@ -99,8 +103,7 @@ export default function Card({
       </div>
       <div className="fixed bottom-4 left-4 text-sm text-gray-500">
         <span>
-          {mounted ? `${seenCount} dimes viewed // ` : ''}
-          hit the spacebar for another one
+          hit the spacebar for another dime
         </span>
       </div>
     </div>
