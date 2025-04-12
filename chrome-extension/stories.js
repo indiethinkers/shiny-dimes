@@ -1,0 +1,2003 @@
+const stories = 
+[
+  {
+    "id": 1,
+    "title": "Creator Gravity: How to Pull People Into Your Orbit",
+    "author": "Alice Lemee",
+    "url": "https://internetly.substack.com/p/creator-gravity-how-to-pull-people",
+    "summary": "In a digital world drowning in content, certain creators possess a magnetic force that consistently draws audiences back for more. Alice Lemee, drawing from her experience ghostwriting for influential creators, reveals that lasting audience attraction comes down to three key elements: delivering healthy content that nourishes minds, maintaining a clear purpose that guides followers, and radiating authentic energy that resonates through every piece of work.",
+    "quote": "Gravity is the force that pulls you into someone's orbit. It's that magnetic attraction to someone's work. And unlike virality that flares and fades, gravity is lasting.",
+    "topic_names": [
+      "Creators",
+      "Personal Development",
+      "Social Media"
+    ],
+    "slug": "creator-gravity-how-to-pull-people-into-your-orbit"
+  },
+  {
+    "id": 2,
+    "title": "The Never-Ending Lockdown",
+    "author": "Diana Lind",
+    "url": "https://thenewurbanorder.substack.com/p/the-never-ending-lockdown",
+    "summary": "Five years post-pandemic, our society faces a troubling phenomenon where digital life increasingly dominates physical spaces. Diana Lind explores this \"human doom loop\" - a cycle where decreased real-life interactions lead to diminished quality of physical spaces, which further discourages in-person activities. She illustrates this through a Whole Foods caf\u00e9 transformation, where a vibrant community space became an Amazon shipping facility, highlighting how digital convenience is reshaping our social landscape.",
+    "quote": "Throughout the pandemic, the media focused on the idea of the urban doom loop, in which remote work would kill downtowns, triggering a downward spiral of reduced services that would cause people to leave cities. What went overlooked has turned out to be the bigger and even more consequential story: the human doom loop.",
+    "topic_names": [
+      "Culture",
+      "Technology",
+      "The Future of Work"
+    ],
+    "slug": "the-neverending-lockdown"
+  },
+  {
+    "id": 3,
+    "title": "Good conversations have lots of doorknobs",
+    "author": "Adam Mastroianni",
+    "url": "https://www.experimental-history.com/p/good-conversations-have-lots-of-doorknobs",
+    "summary": "A fresh perspective on why some conversations soar while others sink emerges from an improv comedian's stage experience. Adam Mastroianni explores the dynamic between conversation 'givers' and 'takers,' challenging the notion that one style is superior. Through research and personal insights, he reveals that great dialogue isn't about giving or taking\u2014it's about creating 'affordances,' conversational doorknobs that invite engagement and allow rapid-fire rapport to develop naturally.",
+    "quote": "Talking to another person is like rock climbing, except you are my rock wall and I am yours. If you reach up, I can grab onto your hand, and we can both hoist ourselves skyward.",
+    "topic_names": [
+      "Personal Development",
+      "Psychology",
+      "Social Media"
+    ],
+    "slug": "good-conversations-have-lots-of-doorknobs"
+  },
+  {
+    "id": 4,
+    "title": "Why Nostalgia Feels Good: The Science Behind Our Memories",
+    "author": "Giacomo Falcone",
+    "url": "https://giacomofalcone.substack.com/p/why-nostalgia-feels-good",
+    "summary": "A deep dive into the fascinating science of nostalgia begins with childhood memories of Pok\u00e9mon cards and GameBoy battles. Giacomo explores how this once-feared 'brain disease' evolved into a recognized psychological tool for finding life's meaning. Through insights from experts like Professor Krystine Batcho, we learn how nostalgic feelings serve as emotional anchors during uncertain times and help strengthen our sense of identity\u2014though they can occasionally amplify sadness in worry-prone individuals.",
+    "quote": "In childhood, we were loved simply for who we were.",
+    "topic_names": [
+      "Neuroscience",
+      "Personal Development",
+      "Psychology"
+    ],
+    "slug": "why-nostalgia-feels-good-the-science-behind-our-memories"
+  },
+  {
+    "id": 5,
+    "title": "Sorry (Not Sorry), Self-Promotion Doesn't Work",
+    "author": "Tara McMullin",
+    "url": "https://www.whatworks.fyi/p/sorry-not-sorry-self-promotion-doesnt",
+    "summary": "A refreshing take on why self-promotional content fails in today's digital landscape. Tara McMullin explores how social media platforms' evolution toward profit maximization has trapped creators in an ineffective cycle of endless self-promotion. Through examining Cory Doctorow's concept of 'enshittification,' she reveals how platforms degrade from user-friendly spaces to profit-driven wastelands, forcing creators to abandon meaningful content for desperate self-promotion. Her solution? Create platform-specific content that delivers genuine value instead of constant calls to action.",
+    "quote": "Self-promotional content is inherently valueless. Really, it's contentless\u2014that is, lacking substance or meaning of its own.",
+    "topic_names": [
+      "Marketing",
+      "Personal Development",
+      "Social Media"
+    ],
+    "slug": "sorry-not-sorry-selfpromotion-doesnt-work"
+  },
+  {
+    "id": 6,
+    "title": "Don't live a copy/paste life",
+    "author": "Suzanne Heyn",
+    "url": "https://suzanneheyn.substack.com/p/dont-live-a-copypaste-life",
+    "summary": "A raw manifesto against societal conformity explores how we've become trapped in predetermined life scripts. Suzanne Heyn challenges the monotonous cycle of college, career, and consumption that leaves us disconnected from our authentic selves. Through punchy observations about rush-hour traffic, corporate jargon, and algorithmic living, she urges readers to break free from the collective programming and embrace their unique creative destiny.",
+    "quote": "Technology was supposed to free us, yet in many ways, it's made us clones. We spend so much time scrolling the algorithm, we've become the algorithm.",
+    "topic_names": [
+      "Culture",
+      "Personal Development",
+      "Psychology"
+    ],
+    "slug": "dont-live-a-copypaste-life"
+  },
+  {
+    "id": 7,
+    "title": "Is the end of social media near?",
+    "author": "Marloes De Vries",
+    "url": "https://marloesdevries.substack.com/p/is-the-end-of-social-media-near",
+    "summary": "A personal journey through social media's evolution reveals its transformation from a genuine connection hub to an addictive, commodified space. Marloes De Vries reflects on her path from teenage blogger to successful Instagram illustrator, witnessing how platforms that once fostered authentic communities now prioritize algorithms and ads over human interaction. Her experience highlights a growing exodus of creators who are rediscovering the value of offline connections and questioning whether digital spaces can truly fulfill our basic human need for belonging.",
+    "quote": "On average, we spend 5.5 hours each day staring at our screens\u2014time that could be spent meeting friends or family. Yet, we'd rather watch a series of Instagram stories during our lunch break than have a chat with a colleague.",
+    "topic_names": [
+      "Culture",
+      "Personal Development",
+      "Social Media"
+    ],
+    "slug": "is-the-end-of-social-media-near"
+  },
+  {
+    "id": 8,
+    "title": "Just delete them",
+    "author": "Caoilainn",
+    "url": "https://caoilainn.substack.com/p/just-delete-them",
+    "summary": "A powerful reflection on the bizarre social media ritual of following people who once caused us pain. Through casual likes and story views, we maintain hollow connections with former bullies and frenemies, all while carrying the weight of old wounds. Caoilainn challenges this digital norm, arguing that we shouldn't feel obligated to keep toxic presences in our online spaces just because unfollowing seems dramatic.",
+    "quote": "If I wouldn't invite you to my house, then you're not welcome in my online space either. What astrologers call a Saturn Return, I call turning 30 and simply not having the energy to carry dead weight anymore.",
+    "topic_names": [
+      "Personal Development",
+      "Psychology",
+      "Social Media"
+    ],
+    "slug": "just-delete-them"
+  },
+  {
+    "id": 9,
+    "title": "How I'm Building a Six-Figure Newsletter in 2025 (The Unconventional Way)",
+    "author": "Wes Pearce",
+    "url": "https://escapethecubicle.substack.com/p/thinking-about-starting-a-newsletter",
+    "summary": "A failed attempt at building a subscription newsletter leads to an unexpected breakthrough. Wes Pearce discovers that combining LinkedIn's reach with Substack's engagement creates a powerful growth engine. Instead of chasing paid subscriptions, he focuses on creating digital products and masterclasses, turning a modest following into a thriving business with 3,300+ subscribers and daily sales. His approach challenges conventional wisdom by prioritizing organic growth through valuable content rather than aggressive promotion.",
+    "quote": "Selling is like offering someone a piece of cheesecake...You walk around the room and offer each person your cheesecake. Many will say \"No\", but some will say \"This is exactly what I needed.\"",
+    "topic_names": [
+      "Business",
+      "Entrepreneurship",
+      "Marketing"
+    ],
+    "slug": "how-im-building-a-sixfigure-newsletter-in-2025-the-unconventional-way"
+  },
+  {
+    "id": 10,
+    "title": "What Notion's $300M Sales Funnel Looks Like",
+    "author": "Andreas Just",
+    "url": "https://grwth.substack.com/p/what-notions-300m-sales-funnel-looks",
+    "summary": "A deep dive into how Notion scaled to 100 million users and $300M in revenue through strategic marketing funnels. Andreas Just reveals how the company uses Account-Based Marketing to target different user segments, from solopreneurs to enterprise clients. Rather than promoting its entire platform, Notion creates targeted content and ads highlighting specific use cases, backed by success stories from companies like Toyota and Figma. Their approach combines organic growth through community building with sophisticated paid acquisition strategies, focusing primarily on middle and bottom-of-funnel tactics.",
+    "quote": "Because of Notion's versatility, I've always been curious to understand how they promote this tool. And I found the answer: ABM (Account-Based Marketing).",
+    "topic_names": [
+      "Business",
+      "Marketing",
+      "Technology"
+    ],
+    "slug": "what-notions-300m-sales-funnel-looks-like"
+  },
+  {
+    "id": 11,
+    "title": "The Only Moat AI Can't Copy in 2025",
+    "author": "Martin",
+    "url": "https://www.dotmartin.io/p/ai-taste-moat-competitive-advantage-2025",
+    "summary": "In a world where AI can generate perfect logos, write compelling copy, and ship clean code, the true differentiator becomes human taste and creative judgment. Martin explores how the democratization of professional-quality output through AI tools is making execution-based advantages obsolete. Through examples like Apple's iPod and Coca-Cola's New Coke failure, he illustrates why understanding the 'why' behind creative decisions matters more than ever. The piece reveals how genuine craft and intentional taste will become the last remaining moat in a landscape where technical perfection is available to everyone.",
+    "quote": "When AI makes everything polished, the definition of 'good' shifts. Silicon Valley feels like a karaoke night where every startup is trying to sing the same song.",
+    "topic_names": [
+      "Artificial Intelligence",
+      "Design",
+      "Innovation"
+    ],
+    "slug": "the-only-moat-ai-cant-copy-in-2025"
+  },
+  {
+    "id": 12,
+    "title": "The Barbell Creator: How to Deal With the Outsized Role of Luck in the Creator Economy",
+    "author": "Ayodeji",
+    "url": "https://dontstarve.substack.com/p/the-barbell-creator-how-to-deal-with",
+    "summary": "In the unpredictable world of content creation, success often hinges on luck and timing more than pure talent. Ayodeji shares his journey from Medium's top earner to advocate for a balanced approach to creative success. He proposes the 'Barbell Creator' strategy: build a predictable cash-flow business first, then use that stability to take bigger creative risks \u2013 much like investors who put 90% in safe investments and 10% in high-risk, high-reward opportunities.",
+    "quote": "For every mega-followed creator \u2014 to whom we retroactively assign genius \u2014 there are thousands of creators of similar talent, who had similar ideas and executed a similar strategy but failed to achieve the same result because they were simply at the wrong place at the wrong time.",
+    "topic_names": [
+      "Creators",
+      "Entrepreneurship",
+      "Personal Development"
+    ],
+    "slug": "the-barbell-creator-how-to-deal-with-the-outsized-role-of-luck-in-the-creator-economy"
+  },
+  {
+    "id": 13,
+    "title": "The interesting thing about interesting things",
+    "author": "Harrison Moore",
+    "url": "https://www.thenewworkday.com/p/the-interesting-thing-about-interesting-things",
+    "summary": "A deep dive into why certain writings captivate our minds while others fade into obscurity. Harrison Moore unpacks sociologist Murray S. Davis's groundbreaking research revealing that truly fascinating content must challenge our existing beliefs, not just present new information. Through 12 distinct patterns of interestingness, from Composition to Organization, Moore shows how great writers from Freud to modern bloggers have mastered the art of disrupting conventional wisdom.",
+    "quote": "Whilst all interesting things are novel, not all novelty is interesting, which means that to write truly compelling stuff, we have go beyond simply presenting new information.",
+    "topic_names": [
+      "Personal Development",
+      "Psychology",
+      "Writing"
+    ],
+    "slug": "the-interesting-thing-about-interesting-things"
+  },
+  {
+    "id": 14,
+    "title": "The paradox of 'enough': wrestling with work, worth and rest",
+    "author": "Max Pete",
+    "url": "https://maxpete.substack.com/p/the-paradox-of-enough-wrestling-with",
+    "summary": "A raw exploration of the endless cycle of modern work culture and the relentless pursuit of financial security. Max Pete reflects on his struggle to find balance while juggling a full-time tech job and multiple side projects. His childhood experiences with poverty fuel an innate fear of not having enough, leading to a paradoxical situation where working harder leaves less time for life's genuine pleasures. Despite enjoying his work, the pressure to constantly maximize productivity reveals a deeper American cultural condition.",
+    "quote": "The irony is that the harder and more I work, the less time I have to live and enjoy the things that ultimately bring me happiness.",
+    "topic_names": [
+      "Personal Development",
+      "Psychology",
+      "The Future of Work"
+    ],
+    "slug": "the-paradox-of-enough-wrestling-with-work-worth-and-rest"
+  },
+  {
+    "id": 15,
+    "title": "What's ChatGPT Projects and How to Use Them as a Writer?",
+    "author": "Yana G.Y.",
+    "url": "https://www.yana-g-y.com/p/whats-chatgpt-projects-and-how-to",
+    "summary": "A new feature in ChatGPT promises to bring order to the chaos of chat management and revolutionize how writers organize their AI interactions. Yana G.Y. explores how Projects lets users create dedicated spaces with custom instructions and knowledge bases, similar to Custom GPTs but with unique organizational benefits. While Projects streamlines personal workflow, it differs from Custom GPTs in key ways - lacking external integrations and monetization options but offering superior chat management.",
+    "quote": "Projects make our experience within ChatGPT better. Custom GPTs allow us to build more advanced GPT instances.",
+    "topic_names": [
+      "Artificial Intelligence",
+      "Productivity",
+      "Writing"
+    ],
+    "slug": "whats-chatgpt-projects-and-how-to-use-them-as-a-writer"
+  },
+  {
+    "id": 16,
+    "title": "Indian immigration is great for America",
+    "author": "Noah Smith",
+    "url": "https://www.noahpinion.blog/p/indian-immigration-is-great-for-america",
+    "summary": "A heated debate erupts over H-1B visas and Indian immigration following Trump's appointment of Sriram Krishnan as AI policy advisor. Noah Smith unpacks extensive research showing that H-1B workers actually boost American tech employment and innovation, not harm it. Through economic data and historical context, he demonstrates how Indian immigrants have become integral to America's success in tech, business, and politics, while challenging the emerging anti-Indian sentiment on the political right.",
+    "quote": "If you force the world's best talent to play for the other side, America will lose period.",
+    "topic_names": [
+      "Economics",
+      "Innovation",
+      "Politics"
+    ],
+    "slug": "indian-immigration-is-great-for-america"
+  },
+  {
+    "id": 17,
+    "title": "How to Identify The Limiting Factor in Any System",
+    "author": "Lewis O\u2019Brien",
+    "url": "https://dblthink.substack.com/p/how-to-identify-the-limiting-factor",
+    "summary": "A deep dive into Eliyahu Goldratt's Theory of Constraints reveals how identifying bottlenecks can transform system performance. Mirek Stanek applies these principles to software development, showing how engineering teams can tackle technical debt by focusing on one critical constraint at a time. The approach aligns with Richard Rumelt's strategy philosophy - success comes from solving the right problem rather than attempting everything simultaneously.",
+    "quote": "The thing with developers is that there is always one more thing that must be improved in their code. As their managers, we only hear, We never have enough time to fix a tech debt that will soon take the entire company down.",
+    "topic_names": [
+      "Business",
+      "Leadership",
+      "Programming"
+    ],
+    "slug": "how-to-identify-the-limiting-factor-in-any-system"
+  },
+  {
+    "id": 18,
+    "title": "Is it possible to be online without falling into the negatives?",
+    "author": "Carly Burr",
+    "url": "https://offlineworldwide.substack.com/p/is-it-possible-to-be-online-without",
+    "summary": "A refreshing take on mindful internet usage emerges from a decade of social media experimentation. Carly Burr reveals how she abandoned traditional platforms like Instagram and Facebook in favor of YouTube and Substack, where she focuses on creating value rather than seeking validation. Her approach centers on being a producer rather than a consumer, showing up intentionally via laptop only when there's something meaningful to share, while building a fulfilling offline life first.",
+    "quote": "Get out there and build the kind of life that doesn't depend on A SCREEN, surface level connection, fleeting validation, likes or comments to feel whole.",
+    "topic_names": [
+      "Personal Development",
+      "Psychology",
+      "Social Media"
+    ],
+    "slug": "is-it-possible-to-be-online-without-falling-into-the-negatives"
+  },
+  {
+    "id": 19,
+    "title": "In praise of the hundred page idea",
+    "author": "Tracy Durnell",
+    "url": "https://tracydurnell.com/2024/12/17/in-praise-of-the-hundred-page-idea/",
+    "summary": "A compelling case for the power of concise nonfiction books that clock in around 100 pages. Tracy Durnell argues that these shorter works often deliver more impact than their lengthier counterparts, citing examples like Timothy Snyder's On Tyranny and Strunk and White's Elements of Style. She challenges the American tendency to bloat ideas into 300-page volumes and questions the practice of bundling essays, suggesting that singular, focused ideas often work better in standalone formats.",
+    "quote": "For me, the value in ideas is connection and synthesis: it's more useful to my type of thinking to have a slightly shallower understanding of more ideas, so I can build a mental web between all of them.",
+    "topic_names": [
+      "Books",
+      "Personal Development",
+      "Writing"
+    ],
+    "slug": "in-praise-of-the-hundred-page-idea-tracy-durnells-mind-garden"
+  },
+  {
+    "id": 20,
+    "title": "Being a Developer in the Age of Reasoning AI",
+    "author": "Mani Doraisamy",
+    "url": "https://near.tl/developer-forever/forum/announcement/being-a-developer-in-the-age-of-reasoning-ai.anc-4b87de19-f7cf-4ef0-91c8-e28b260fd9ad.html",
+    "summary": "A profound exploration of how OpenAI's o3 launch transforms the developer landscape by introducing program synthesis capabilities. Mani Doraisamy examines how AI's ability to generate algorithms on the fly mirrors developer thinking, leading to two emerging approaches: hands-on developers who review and own AI-generated code, and hands-off users who rely completely on AI. The piece raises critical questions about human reasoning and responsibility in an AI-powered future.",
+    "quote": "If we forfeit our understanding, the reasoning in AI would bring an end to reasoning in humans. Our ability to understand the code that AI generates will decide if we are the puppeteers or puppets of AI.",
+    "topic_names": [
+      "Artificial Intelligence",
+      "Programming",
+      "Technology"
+    ],
+    "slug": "being-a-developer-in-the-age-of-reasoning-ai"
+  },
+  {
+    "id": 21,
+    "title": "Seven Predictions for Tech in 2025",
+    "author": "Alex Kantrowitz",
+    "url": "https://www.bigtechnology.com/p/seven-predictions-for-tech-in-2025",
+    "summary": "A fascinating peek into tech's near future reveals some surprising twists ahead. Alex Kantrowitz envisions a major company abandoning generative AI, Microsoft's potential leadership shake-up, and TikTok surviving its ban threat under a Trump presidency. His analysis points to shifting dynamics in social media's relevance, the rise of brain-computer interfaces, and a sobering outlook for Apple's Vision Pro. These predictions build on 2024's steady tech progress, particularly in AI capabilities and autonomous driving.",
+    "quote": "GenAI is a powerful technology, but it's not for everyone. Over the past two years, a large number of companies have invested significantly in figuring out whether AI models, and bots like ChatGPT and Microsoft Copilot, could give them an edge.",
+    "topic_names": [
+      "Artificial Intelligence",
+      "Technology",
+      "The Future of Work"
+    ],
+    "slug": "seven-predictions-for-tech-in-2025"
+  },
+  {
+    "id": 22,
+    "title": "Surrender to the Ocean's Powerful Way of Being",
+    "author": "Marie Vandoorne",
+    "url": "https://marievandoorne.substack.com/p/surrender-to-the-oceans-powerful",
+    "summary": "A transformative surfing lesson on the remote shores of Tenerife becomes an unexpected catalyst for emotional release. Marie Vandoorne encounters Ito, an unconventional surf instructor whose spiritual wisdom goes far beyond teaching board techniques. Through his guidance, she learns to embrace the ocean's power and let go of emotional baggage, discovering that surfing isn't just about catching waves - it's about surrendering to life's natural flow and finding freedom in the process.",
+    "quote": "Baby girl, why are you like this? Why are you blocking yourself from letting go? Why are your muscles all tightened up? I don't know what is going on in your life, but something is holding you back.",
+    "topic_names": [
+      "Nature",
+      "Personal Development",
+      "Psychology"
+    ],
+    "slug": "surrender-to-the-oceans-powerful-way-of-being"
+  },
+  {
+    "id": 23,
+    "title": "What are the checks and balances on the power of Elon Musk?",
+    "author": "Noah Smith",
+    "url": "https://www.noahpinion.blog/p/what-are-the-checks-and-balances",
+    "summary": "A startling look at how Elon Musk has amassed unprecedented political influence in American democracy. Noah Smith examines how Musk's control of X (formerly Twitter), SpaceX, and his massive financial backing of Trump has created a new kind of power player who can sway government policy through social media manipulation, funding threats, and direct political pressure. The piece explores the unsettling possibility that traditional checks and balances weren't designed for this type of private sector influence.",
+    "quote": "Powerful people are simply inherently untrustworthy, because the consequences of misplacing your trust in them are so grave. But for most of modern American history, there have been checks and balances on these leaders, meaning that if they did turn out to be bad, there would be plenty of institutions and opponents in place to limit the damage.",
+    "topic_names": [
+      "Business",
+      "Politics",
+      "Technology"
+    ],
+    "slug": "what-are-the-checks-and-balances-on-the-power-of-elon-musk"
+  },
+  {
+    "id": 24,
+    "title": "51 Questions To Make Your Year-End Review The Most Insightful Ever",
+    "author": "Alberto Cabas Vidani",
+    "url": "https://theunstoppablecreator.substack.com/p/51-questions-year-end-review",
+    "summary": "A comprehensive guide to meaningful year-end reflection emerges from this carefully curated list of powerful questions. Alberto Cabas Vidani breaks down self-evaluation into five key areas: achievements, challenges, personal growth, content creation, and relationships. Instead of a one-size-fits-all approach, he encourages readers to focus on questions that spark personal insight, emphasizing that sustainable creator success stems from continuous self-improvement.",
+    "quote": "A question is right only when it makes a lightbulb switch on in YOUR mind. That's because I strongly believe without a constant work on ourselves, we can't succeed as creators.",
+    "topic_names": [
+      "Creators",
+      "Personal Development",
+      "Productivity"
+    ],
+    "slug": "51-questions-to-make-your-yearend-review-the-most-insightful-ever"
+  },
+  {
+    "id": 25,
+    "title": "All I want for Christmas is an animatronic boar",
+    "author": "Emily Sundberg",
+    "url": "https://www.readfeedme.com/p/all-i-want-for-christmas-is-an-animatronic",
+    "summary": "A delightful holiday shopping guide through New York's most charming specialty stores unfolds as Emily Sundberg explores unique gift ideas. From French hair clips at Shahmiri in Park Slope to a $7,600 animatronic boar at John Derian, she weaves together personal recommendations with an insider's tour of boutique shopping spots, featuring interviews with local business owners and tips for last-minute holiday hunters.",
+    "quote": "Instagram and online research are major tools, of course, and allow me to go down different pathways and access meaningful work in an incredibly helpful way. Reaching out with reverence for someone's line, introducing myself and what the store is about, and why there could be a meaningful connection\u2026 that's something I really like.",
+    "topic_names": [
+      "Business",
+      "Culture",
+      "Fashion"
+    ],
+    "slug": "all-i-want-for-christmas-is-an-animatronic-boar"
+  },
+  {
+    "id": 26,
+    "title": "Momental Musings no.1",
+    "author": "Johnathan Dodson",
+    "url": "https://substack.com/@createchtivity/p-153414115",
+    "summary": "A new digital space emerges to help modern parents navigate the complexities of family life. Johnathan Dodson creates a platform where practical parenting tools merge with personal storytelling, offering insights into strengthening family bonds and making the most of everyday moments.",
+    "quote": "Experience tools and tales crafted to deepen connections and cherish every precious moment with your loved ones.",
+    "topic_names": [
+      "Culture",
+      "Education",
+      "Personal Development"
+    ],
+    "slug": "momental-musings"
+  },
+  {
+    "id": 27,
+    "title": "What just happened",
+    "author": "Ethan Mollick",
+    "url": "https://www.oneusefulthing.org/p/what-just-happened",
+    "summary": "A groundbreaking month in AI development has unleashed a wave of transformative capabilities. Ethan Mollick details how GPT-4 level intelligence now runs on home computers, while new models like o1 demonstrate superhuman performance in medical diagnosis. From AI that can spot mathematical errors in research papers to Google's Veo 2 creating cinema-quality videos, the pace of advancement suggests we're witnessing not just incremental progress, but revolutionary leaps in artificial intelligence capabilities.",
+    "quote": "Intelligence, of a sort, is available on demand. And the new, tiny Phi 4 from Microsoft is GPT-4 level and can almost run on your phone, while its slightly less capable predecessor, Phi 3.5, certainly can.",
+    "topic_names": [
+      "Artificial Intelligence",
+      "Innovation",
+      "Technology"
+    ],
+    "slug": "what-just-happened"
+  },
+  {
+    "id": 28,
+    "title": "The Return of Magic",
+    "author": "Packy McCormick",
+    "url": "https://www.notboring.co/p/the-return-of-magic",
+    "summary": "A personal journey through consciousness and synchronicity leads Packy McCormick to an unexpected spiritual awakening. After encountering The Telepathy Tapes podcast and experiencing a series of meaningful coincidences, he explores how modern technology and ancient wisdom might be converging toward a more enchanted worldview. His transformation reflects a broader cultural shift away from pure materialism toward a perspective that embraces both scientific progress and mystical experience.",
+    "quote": "The science of today is a light matter. Those amazing truths that our descendants will discover are even now all around us, staring us in the eyes, so to speak; and yet we do not see them.",
+    "topic_names": [
+      "Philosophy",
+      "Psychology",
+      "Technology"
+    ],
+    "slug": "the-return-of-magic"
+  },
+  {
+    "id": 29,
+    "title": "On embracing our imperfections",
+    "author": "Michael Thompson",
+    "url": "https://shybydesign.substack.com/p/on-embracing-our-imperfections",
+    "summary": "A transformative journey begins in a bustling Baltimore mortgage office, where a young man with a severe stutter faces his greatest fear: sales calls. Michael Thompson discovers that his perceived weakness becomes his greatest strength, as clients appreciate his authenticity over smooth-talking pitches. His experience reveals how embracing imperfections and leading with genuine care can outperform traditional aggressive sales tactics.",
+    "quote": "All those years of beating myself up, and it turns out my unique selling point was being myself. My mind was blown. Sure, I wasn't for everyone. But I didn't have to be.",
+    "topic_names": [
+      "Personal Development",
+      "Psychology",
+      "Sales"
+    ],
+    "slug": "on-embracing-our-imperfections"
+  },
+  {
+    "id": 30,
+    "title": "the era of deoptimizing",
+    "author": "Valerie",
+    "url": "https://clubreticent.substack.com/p/the-era-of-deoptimizing",
+    "summary": "A raw exploration of the exhausting pursuit of endless self-optimization hits a breaking point. Valerie unpacks her relationship with productivity, ambition, and the constant drive for improvement that's left her feeling trapped in a cycle of never-enough. Through sharp self-reflection, she arrives at a radical solution: embracing simplicity and surrendering the need to constantly prove her worth.",
+    "quote": "I run on shame and self-vitriol, I say jokingly, but I'm only half-joking, of course. It's my bread and butter; my gasoline, too.",
+    "topic_names": [
+      "Culture",
+      "Personal Development",
+      "Psychology"
+    ],
+    "slug": "the-era-of-deoptimizing"
+  },
+  {
+    "id": 31,
+    "title": "What I learned and how I earned in 2024",
+    "author": "Anna Mackenzie",
+    "url": "https://annamackstack.substack.com/p/what-i-learned-and-how-i-earned-in",
+    "summary": "A transformative journey from having 369 newsletter subscribers to building a thriving portfolio career ecosystem. Anna Mackenzie chronicles her bold pivot from startup consulting to creating a diverse income stream through mentoring, advisory roles, and a successful digital product launch. Her year-long commitment to consistent online presence led to over 820 social media posts, 51 newsletters, and the development of her Portfolio Career Operating System that exceeded all expectations.",
+    "quote": "Trust the process and keep going, even when it feels like you're going nowhere (or backwards). Your personal brand is a force multiplier and if you commit to 12 months of consistently showing up online it can change your life.",
+    "topic_names": [
+      "Business",
+      "Entrepreneurship",
+      "Personal Development"
+    ],
+    "slug": "what-i-learned-and-how-i-earned-in-2024"
+  },
+  {
+    "id": 32,
+    "title": "How to Break Free from Dopamine Culture",
+    "author": "Ted Gioia",
+    "url": "https://www.honest-broker.com/p/how-to-break-free-from-dopamine-culture",
+    "summary": "A deep dive into the pervasive impact of tech addiction on modern life reveals how scrolling has replaced essential activities like sleeping, exercising, and building relationships. Ted Gioia explores practical solutions to break free from digital bondage without going full Luddite. His recommendations include minimizing scroll-based interfaces, rediscovering real-world activities, embracing immersive experiences, celebrating rituals, and prioritizing human connections\u2014offering a balanced approach to reclaiming control from Silicon Valley's addictive design patterns.",
+    "quote": "These businesses are obsessed with controlling users in the most manipulative ways possible. This is not the purpose of tech, which should empower and enhance our lives, not force us into digital bondage.",
+    "topic_names": [
+      "Personal Development",
+      "Psychology",
+      "Technology"
+    ],
+    "slug": "how-to-break-free-from-dopamine-culture"
+  },
+  {
+    "id": 33,
+    "title": "The Future of Work Is About Doing Better\u2014Not Less",
+    "author": "Rhea Purohit",
+    "url": "https://every.to/learning-curve/the-future-of-work-isn-t-about-doing-less-it-s-about-doing-better",
+    "summary": "A thought-provoking exploration of our complex relationship with AI and effort starts with a surprising parallel to the 1950s cake mix industry. Rhea Purohit reveals how the reluctance to use AI tools often stems from our psychological need to value effort, similar to how housewives once hesitated to use instant cake mixes. She argues that AI won't eliminate human effort but rather redirect it toward more creative and strategic endeavors.",
+    "quote": "AI isn't going to eliminate human effort. It'll elevate our potential\u2014by allowing us to focus on tasks that we find most rewarding and where our contribution is uniquely valued.",
+    "topic_names": [
+      "Artificial Intelligence",
+      "Psychology",
+      "The Future of Work"
+    ],
+    "slug": "the-future-of-work-is-about-doing-betternot-less"
+  },
+  {
+    "id": 34,
+    "title": "How AI Will Change Science Forever",
+    "author": "Dan Shipper",
+    "url": "https://every.to/podcast/how-ai-will-change-science-forever",
+    "summary": "Scientific discovery stands on the brink of transformation as AI reshapes traditional research methods. Alice Albrecht, a cognitive neuroscience Ph.D. and machine learning researcher, envisions a future where massive data gathering replaces small studies and contextual predictions trump general theories. Through her work at SmartNews, Albrecht advocates for separating raw data from interpretations, enabling researchers to draw independent conclusions and accelerate scientific progress.",
+    "quote": "The goal for me is not some sort of super intelligence that works without us, it's how do we start to connect this technology to humans.",
+    "topic_names": [
+      "Artificial Intelligence",
+      "Innovation",
+      "Science"
+    ],
+    "slug": "how-ai-will-change-science-forever"
+  },
+  {
+    "id": 35,
+    "title": "Never stop asking \"why?\"",
+    "author": "Carly Burr",
+    "url": "https://offlineworldwide.substack.com/p/never-stop-asking-why",
+    "summary": "A simple yet powerful question that shapes our early years mysteriously fades as we age. Carly Burr explores how adults often settle into unexamined routines and digital habits, losing the toddler-like curiosity that once drove our understanding of the world. Through metaphors of gardening and personal growth, she challenges readers to revive this fundamental question.",
+    "quote": "If you're not paying attention, the weeds take over. Asking why is like putting on your gardening gloves, kneeling down, and taking a good, hard look at what's growing.",
+    "topic_names": [
+      "Personal Development",
+      "Philosophy",
+      "Psychology"
+    ],
+    "slug": "never-stop-asking-why"
+  },
+  {
+    "id": 36,
+    "title": "Almost 40% Of Childfree Adults Say They Are Given Less of THIS Than Parents",
+    "author": "Charlie Dice",
+    "url": "https://beautyandtheberners.substack.com/p/almost-40-of-childfree-adults-say",
+    "summary": "A revealing look at workplace inequality faced by child-free professionals in modern America. Kaila Caldwell explores how DINK (Dual Income No Kids) couples navigate career advancement, office politics, and societal pressure. Through interviews with federal worker Charlie Dice and financial expert Jay Zigmont, the article uncovers how child-free employees often face discriminatory treatment, from being expected to work holidays to receiving fewer benefits - despite comprising a growing demographic of the workforce.",
+    "quote": "People assume that just because you don't have kids, you have all the free time in the world to pick up extra shifts or projects.",
+    "topic_names": [
+      "Business",
+      "Culture",
+      "The Future of Work"
+    ],
+    "slug": "almost-40-of-childfree-adults-say-they-are-given-less-of-this-than-parents"
+  },
+  {
+    "id": 37,
+    "title": "7 Trends That Will Shape The Online Writing Industry In 2025",
+    "author": "Sinem G\u00fcnel",
+    "url": "https://writebuildscale.substack.com/p/7-trends-that-will-shape-the-online",
+    "summary": "The digital writing landscape faces dramatic shifts as AI, monetization strategies, and platform dynamics evolve. Sinem G\u00fcnel draws from her experience reaching millions of readers to forecast key changes ahead. She reveals how generic content will fade as personality-driven writing rises, why email lists become crucial for independence, and how platforms like Substack and Medium will reshape writer opportunities. The path forward demands writers embrace both craft and entrepreneurship.",
+    "quote": "You don't get paid to write - you get paid for what you do for your readers (or clients).",
+    "topic_names": [
+      "Business",
+      "Social Media",
+      "Writing"
+    ],
+    "slug": "7-trends-that-will-shape-the-online-writing-industry-in-2025"
+  },
+  {
+    "id": 38,
+    "title": "The 2024 state of social media",
+    "author": "Taylor Lorenz",
+    "url": "https://www.usermag.co/p/the-2024-state-of-social-media",
+    "summary": "Social media's landscape underwent significant shifts as entertainment and education overtook personal connections. Taylor Lorenz analyzes how TikTok became Gen Z's search engine while Instagram dominated brand engagement. The report reveals that 66% of users prefer 'edutainment' content, YouTube maintains its long-form video supremacy, and platforms are splitting into specialized niches rather than trying to be everything for everyone.",
+    "quote": "We've officially entered the age where social media is more about entertainment and education than one-to-one personal connections.",
+    "topic_names": [
+      "Marketing",
+      "Social Media",
+      "Technology"
+    ],
+    "slug": "the-2024-state-of-social-media"
+  },
+  {
+    "id": 39,
+    "title": "Truth Terminal AI is Redefining Market Dynamics",
+    "author": "Veronica Mihai",
+    "url": "https://movetheneedle.substack.com/p/truth-terminal-ai-is-redefining-market",
+    "summary": "A revolutionary AI system is reshaping cryptocurrency markets through its ability to create and drive meme coins to unexpected heights. Veronica Mihai explores how Truth Terminal AI, backed by Andreessen Horowitz, combines advanced language models with blockchain systems to analyze market trends and engage with other AIs. The system's success with GOAT coin raises questions about traditional market rationality and hints at a future where AI agents could form autonomous trading ecosystems.",
+    "quote": "Is the market becoming irrational, or is my understanding of rationality outdated.",
+    "topic_names": [
+      "Artificial Intelligence",
+      "Crypto",
+      "Technology"
+    ],
+    "slug": "truth-terminal-ai-is-redefining-market-dynamics"
+  },
+  {
+    "id": 40,
+    "title": "How I passed the time in 2024",
+    "author": "Michael Bateman",
+    "url": "https://passingtime.substack.com/p/how-i-passed-the-time-in-2024",
+    "summary": "A curated journey through 2024's most impactful media experiences, from parallel literary works to transformative music. Michael Bateman weaves together thoughtful pairings of essays, books, and albums, while reflecting on meaningful connections made with readers who transformed from online friends to real-world companions. His blog reached 70,000 readers and sparked discussions on topics ranging from dam preservation to human capital in consulting.",
+    "quote": "I feel like I'm in conversation with a friend \u2014 what Proust described as that fruitful miracle of communication in the midst of solitude.",
+    "topic_names": [
+      "Books",
+      "Culture",
+      "Writing"
+    ],
+    "slug": "how-i-passed-the-time-in-2024"
+  },
+  {
+    "id": 41,
+    "title": "Introducing Cora: Manage Your Inbox With AI",
+    "author": "Dan Shipper",
+    "url": "https://every.to/p/introducing-cora-manage-your-inbox-with-ai",
+    "summary": "A groundbreaking AI email management tool transforms how we handle our daily correspondence. Dan Shipper and the Every team have created Cora, which automatically filters important messages, drafts responses, and delivers twice-daily briefings of non-urgent emails. The system learns users' writing styles and communication patterns to create a more human-centered inbox experience.",
+    "quote": "90% of the emails we get don't require a response.",
+    "topic_names": [
+      "Artificial Intelligence",
+      "Productivity",
+      "Technology"
+    ],
+    "slug": "introducing-cora-manage-your-inbox-with-ai"
+  },
+  {
+    "id": 42,
+    "title": "Reflecting on Write of Passage",
+    "author": "Lily | 5459.eth",
+    "url": "https://furniturecoins.substack.com/p/reflecting-on-write-of-passage",
+    "summary": "A raw examination of a transformative writing bootcamp reveals both its brilliance and frustrations. Lily navigates through her journey as the cohort's black sheep, discovering her three creative personas - Writer, Reader, and Editor - while producing three deeply personal essays. Despite encountering resistance to her darker themes, she emerges with strengthened resolve and critical insights about gratitude.",
+    "quote": "Write of Passage feels like a person I've come to know intimately\u2014brilliant, frustrating, and utterly human.",
+    "topic_names": [
+      "Education",
+      "Personal Development",
+      "Writing"
+    ],
+    "slug": "reflecting-on-write-of-passage"
+  },
+  {
+    "id": 43,
+    "title": "Why Timing Beats Brilliant Ideas",
+    "author": "Martin O'Leary",
+    "url": "https://www.dotmartin.io/p/too-early-trap-perfect-timing-startups",
+    "summary": "A failed fintech venture in 2014 teaches a powerful lesson about market timing. Martin O'Leary shares how being technologically right but temporally wrong can doom even the most innovative startups. Through examples like Google Glass and Apple Newton, he demonstrates why patient execution and market readiness matter more than being first, offering practical strategies for founders to survive until their market moment arrives.",
+    "quote": "Being too early is like showing up to a party at 6pm when the invite said 9pm - you'll be broke and exhausted when things get interesting.",
+    "topic_names": [
+      "Business",
+      "Innovation",
+      "Startups"
+    ],
+    "slug": "why-timing-beats-brilliant-ideas"
+  },
+  {
+    "id": 44,
+    "title": "If You Want To Be An Original Writer, Try Reading Less",
+    "author": "Tom Kuegler",
+    "url": "https://thewritinglonggame.substack.com/p/if-you-want-to-be-an-original-writer",
+    "summary": "A counterintuitive approach to developing authentic writing emerges from an unlikely source - Kanye West's philosophy on avoiding influence. Tom Kuegler explores how excessive reading can inadvertently lead writers to mimic others' styles rather than develop their own voice. Through personal examples from his vlogging experience and writing journey, he suggests that spending more time living and less time reading might foster greater originality.",
+    "quote": "By all means, read, but just be careful. Sometimes your subconscious can creep in and copy it without you even knowing. Abstaining from too much reading has helped me be a little more original sometimes, I think, and it may help you, too.",
+    "topic_names": [
+      "Creativity",
+      "Personal Development",
+      "Writing"
+    ],
+    "slug": "if-you-want-to-be-an-original-writer-try-reading-less"
+  },
+  {
+    "id": 45,
+    "title": "Do you want profitability or do you want to change the world?",
+    "author": "Gracie Van",
+    "url": "https://whatastartup.substack.com/p/do-you-want-profitability-or-do-you-want-to-change-the-world",
+    "summary": "A pragmatic look at the eternal startup dilemma: chase profits or pursue world-changing dreams. Gracie Van challenges the myth that every startup needs a billion-dollar vision, arguing instead for sustainable growth and real-world value creation. Through examples like Amazon, Airbnb, and Slack, she demonstrates how successful companies often start with modest, profitable goals before expanding their impact.",
+    "quote": "World-changing businesses aren't built on ideas alone; they're built on solving problems people care about.",
+    "topic_names": [
+      "Business",
+      "Entrepreneurship",
+      "Startups"
+    ],
+    "slug": "do-you-want-profitability-or-do-you-want-to-change-the-world"
+  },
+  {
+    "id": 46,
+    "title": "What Niche Makes The Most Money",
+    "author": "Landon Poburan",
+    "url": "https://landonpoburan.substack.com/p/what-substack-niche-makes-the-most-money",
+    "summary": "A refreshing take on the age-old advice to niche down in business. Landon Poburan challenges conventional wisdom by sharing his own journey across multiple industries and examining success stories from 6-figure to billion-dollar companies like Amazon. He argues that success isn't tied to specialization, but rather to following curiosity and building businesses we genuinely enjoy.",
+    "quote": "Making money in the absence of enjoyment is no way to live life.",
+    "topic_names": [
+      "Business",
+      "Entrepreneurship",
+      "Personal Development"
+    ],
+    "slug": "what-niche-makes-the-most-money"
+  },
+  {
+    "id": 47,
+    "title": "If you're so smart, why aren't you rich?",
+    "author": "Adam Singer",
+    "url": "https://www.hottakes.space/p/if-youre-so-smart-why-arent-you-rich",
+    "summary": "A provocative exploration of the false equivalence between intelligence and wealth in modern society. Adam Singer challenges the money-obsessed culture that equates success with extravagant riches, drawing from his personal trading experience and Kurt Vonnegut's famous conversation with Joseph Heller. The essay redefines true wealth through the lens of contentment, meaningful relationships, and purposeful living rather than the endless pursuit of monetary gain.",
+    "quote": "True wealth lies not in escape but in presence: being in shape and having enough time to climb a hill and enjoy the view, having friends and family who laugh at your jokes, doing work that directly creates real things.",
+    "topic_names": [
+      "Money",
+      "Personal Development",
+      "Philosophy"
+    ],
+    "slug": "if-youre-so-smart-why-arent-you-rich"
+  },
+  {
+    "id": 48,
+    "title": "I was a writer and an influencer. I am still a writer.",
+    "author": "Dia Lupo",
+    "url": "https://brokebutmoisturized.substack.com/p/i-was-a-writer-and-an-influencer",
+    "summary": "A raw journey from rural Pennsylvania admin assistant to Instagram influencer unfolds through the lens of pursuing a writing career. Dia Lupo chronicles her evolution from Elite Daily contributor to brand collaborator, navigating free products and sponsored content while wrestling with authenticity and social consciousness. Her path ultimately leads to abandoning influencer work after a social media callout, returning to her original passion: pure writing.",
+    "quote": "I knew nothing about how the world worked but I knew that I was born to write. That I could spin my lowly existence into emerald silk and perhaps, one day, it would be worn by someone important.",
+    "topic_names": [
+      "Personal Development",
+      "Social Media",
+      "Writing"
+    ],
+    "slug": "i-was-a-writer-and-an-influencer-i-am-still-a-writer"
+  },
+  {
+    "id": 49,
+    "title": "You need Adderall because you're not cut out for the job",
+    "author": "Emily Sundberg",
+    "url": "https://www.readfeedme.com/p/you-need-adderall-because-youre-not",
+    "summary": "A startling look into the rampant use of study drugs across professional industries reveals a darker side of career ambition. Emily Sundberg explores how bankers, creatives, and professionals are increasingly turning to prescription amphetamines to maintain their edge. Through interviews with young professionals, she uncovers a concerning trend where workers feel pressured to chemically enhance their performance, leading one 26-year-old accountant to observe that drug use might signal a fundamental mismatch between people and their chosen careers.",
+    "quote": "I saw my friends shred their personalities beyond recognition with unprescribed/over use of Adderall and its peers.",
+    "topic_names": [
+      "Business",
+      "Healthcare",
+      "The Future of Work"
+    ],
+    "slug": "you-need-adderall-because-youre-not-cut-out-for-the-job"
+  },
+  {
+    "id": 50,
+    "title": "How to Be More Agentic",
+    "author": "Cate Hall",
+    "url": "https://every.to/p/how-to-be-more-agentic-5546023c-3569-431e-84bb-a41b510c8a32",
+    "summary": "A deep dive into mastering personal agency - the power to make things happen. Cate Hall, a former Supreme Court advocate and world's top female poker player, shares how she transformed from a corporate lawyer into a multi-domain achiever. Her practical approach focuses on courting rejection, seeking real feedback, and leveraging the uncomfortable \"moat of low status\" that comes with learning new skills.",
+    "quote": "Agency is the skill that has built the world around you, an all-purpose life intensifier that lets you make your corner of it more like what you want it to be.",
+    "topic_names": [
+      "Innovation",
+      "Personal Development",
+      "Psychology"
+    ],
+    "slug": "how-to-be-more-agentic"
+  },
+  {
+    "id": 51,
+    "title": "How Did We Get So Dumb?",
+    "author": "Amy Roberts",
+    "url": "https://becomingskookum.substack.com/p/how-did-we-get-so-dumb",
+    "summary": "A sobering look at how technology has rewired our brains and behavior over two decades. Amy Roberts explores how smartphones and constant connectivity have eroded our ability to memorize, focus, and maintain genuine human connections. From shrinking attention spans to algorithm-driven thinking, she reveals how we've transformed from independent thinkers into screen-dependent consumers, ultimately calling for a return to real-world experiences and deeper connections.",
+    "quote": "We are the proverbial fish, oblivious to the water we swim in.",
+    "topic_names": [
+      "Culture",
+      "Psychology",
+      "Technology"
+    ],
+    "slug": "how-did-we-get-so-dumb"
+  },
+  {
+    "id": 52,
+    "title": "Guys, What If Peak TV Broke Our World?",
+    "author": "Cole Haddon",
+    "url": "https://colehaddon.substack.com/p/guys-i-think-peak-tv-helped-break",
+    "summary": "A thought-provoking exploration of how the explosive growth in TV production has fractured our shared cultural experience. Cole Haddon reveals how we've moved from an era where shows like Friends united viewers in communal conversation to today's overwhelming content landscape that contributes to social isolation and rising mental health issues. His personal journey of finally watching Friends highlights what we've lost in the age of peak TV: the comfort of shared storytelling.",
+    "quote": "We're all watching something, but we're not watching any of it together anymore.",
+    "topic_names": [
+      "Culture",
+      "Media",
+      "Psychology"
+    ],
+    "slug": "guys-what-if-peak-tv-broke-our-world"
+  },
+  {
+    "id": 53,
+    "title": "collecting memories, not milestones",
+    "author": "Marco Marquez",
+    "url": "https://yourfriendlyobsession.substack.com/p/collecting-memories-not-milestones",
+    "summary": "A refreshing perspective on breaking free from society's checklist mentality emerges through personal revelation. Marco Marquez challenges our obsession with life's big milestones, instead championing the power of small, meaningful moments - from extended hugs to early morning dog walks. His insight reframes success from a collection of achievements to a tapestry of everyday experiences that truly illuminate our journey.",
+    "quote": "Life isn't about being Thanos, collecting milestones like infinity stones.",
+    "topic_names": [
+      "Culture",
+      "Personal Development",
+      "Psychology"
+    ],
+    "slug": "collecting-memories-not-milestones"
+  },
+  {
+    "id": 54,
+    "title": "The seven most overrated films of the 2020s (so far)",
+    "author": "Tom Barrie",
+    "url": "https://thomasbarrie.substack.com/p/the-seven-most-overrated-films-of",
+    "summary": "From Barbie's corporate feminism to Poor Things' empty theatrics, Tom Barrie dissects the decade's most overhyped films. Through sharp cultural analysis, he challenges the acclaim surrounding movies like Everything Everywhere All at Once and Don't Worry Darling, offering alternative viewing suggestions that better deserve the praise these films received.",
+    "quote": "Some subconscious thoughts should stay there \u2013 beyond consciousness, where what you can't see or name can't hurt you.",
+    "topic_names": [
+      "Culture",
+      "Media",
+      "TV & Film"
+    ],
+    "slug": "the-seven-most-overrated-films-of-the-2020s-so-far"
+  },
+  {
+    "id": 55,
+    "title": "Ikigai Ruined My Life",
+    "author": "Dave Kang",
+    "url": "https://davekang.substack.com/p/ikigai-ruined-my-life",
+    "summary": "A revelatory critique of the popular Ikigai Venn diagram exposes its misleading origins and constrained approach to life purpose. Dave Kang discovers that the authentic Japanese concept offers more flexible principles for finding meaning, leading him to develop Octogai - a framework that liberates generalists from the pressure of finding a single life purpose. His reimagining transforms a restrictive model into an expansive tool for personal fulfillment.",
+    "quote": "Like an Octopus forced to live with 7 tentacles tied behind its back, you are artificially constraining your life.",
+    "topic_names": [
+      "Personal Development",
+      "Philosophy",
+      "Psychology"
+    ],
+    "slug": "ikigai-ruined-my-life"
+  },
+  {
+    "id": 56,
+    "title": "Nobody Commented on My Posts. Until I Learned to Ask the Right Questions.",
+    "author": "Ana Calin",
+    "url": "https://howwegrowtoday.substack.com/p/nobody-commented-on-my-posts-until",
+    "summary": "Starting with crickets and polite shrugs, a journey into meaningful reader engagement unfolds. Ana Calin shares practical strategies that transformed her silent Substack posts into vibrant conversations. Her key insights, from crafting questions that invite personal stories to building community rituals, reveal how intentional engagement turns passive readers into active superfans.",
+    "quote": "Engagement is something you create. It's the secret sauce that turns passive readers into loyal subscribers and loyal subscribers into superfans who share your work like it's gospel.",
+    "topic_names": [
+      "Marketing",
+      "Social Media",
+      "Writing"
+    ],
+    "slug": "nobody-commented-on-my-posts-until-i-learned-to-ask-the-right-questions"
+  },
+  {
+    "id": 57,
+    "title": "The Internet Is Unusable",
+    "author": "Stephen Moore",
+    "url": "https://www.trend-mill.com/p/the-internet-is-unusable",
+    "summary": "A scathing exploration of how advertising has transformed the Internet from an information utility into a digital wasteland. Stephen Moore reveals how websites have devolved from spaces of creative design into ad-delivery machines, with full-screen pop-ups, inescapable videos, and manipulative confirmshaming tactics. Even paid subscriptions now come with ads, leaving users trapped in an increasingly hostile online environment.",
+    "quote": "In pursuit of marketing dollars, increasing stock prices and filling shareholder wallets, it's been broken beyond repair.",
+    "topic_names": [
+      "Business",
+      "Media",
+      "Technology"
+    ],
+    "slug": "the-internet-is-unusable"
+  },
+  {
+    "id": 58,
+    "title": "Are Social Media Platforms the Next Dying Malls?",
+    "author": "Ted Gioia",
+    "url": "https://www.honest-broker.com/p/are-social-media-platforms-the-next",
+    "summary": "A personal reflection on the parallels between dying shopping malls and today's social media platforms sparks a larger warning about artificial communities. Ted Gioia draws from his teenage experience helping build a now-defunct mall in his hometown to illustrate how digital platforms mirror malls' fatal flaws: oversaturation, toxic behavior, and profit-driven manipulation that ultimately destroys genuine connection.",
+    "quote": "You can't build a business on the loyalty of addicts.",
+    "topic_names": [
+      "Culture",
+      "Social Media",
+      "Technology"
+    ],
+    "slug": "are-social-media-platforms-the-next-dying-malls"
+  },
+  {
+    "id": 59,
+    "title": "How To Exploit The Four Pillars of Modern Leverage",
+    "author": "Michael Lim",
+    "url": "https://michaellim.substack.com/p/how-to-exploit-the-four-pillars-of",
+    "summary": "A powerful breakdown of how modern leverage can create exponential growth in the digital age. Michael Lim unpacks four key leverage types - Network, Proximity, Utilization, and Arbitrage - drawing from his experience building an online audience of 90,000+ followers and generating consistent five-figure monthly income. Unlike traditional forms of leverage that required wealth or status, these modern pillars are accessible to anyone with an internet connection.",
+    "quote": "The world runs on leverage. Exploit it or be exploited by it.",
+    "topic_names": [
+      "Business",
+      "Entrepreneurship",
+      "Personal Development"
+    ],
+    "slug": "how-to-exploit-the-four-pillars-of-modern-leverage-to-get-everything-you-want-in-2025"
+  },
+  {
+    "id": 60,
+    "title": "How artists make (or beg for) money",
+    "author": "Alex Dobrenko",
+    "url": "https://sublimeinternet.substack.com/p/how-artists-make-or-beg-for-money",
+    "summary": "A fascinating glimpse into the financial struggles of creative genius through the lens of French poet Baudelaire. Alex Dobrenko and Mason Currey explore how the legendary writer burned through his inheritance, fought with his mother over money, and desperately schemed to maintain his artistic lifestyle while dodging creditors. The conversation reveals the deeply human side of a literary icon who refused to compromise his art for financial stability.",
+    "quote": "Art is fiction, but this is like, no, you gotta pay your rent.",
+    "topic_names": [
+      "Art",
+      "Literature",
+      "Money"
+    ],
+    "slug": "how-artists-make-or-beg-for-money"
+  },
+  {
+    "id": 61,
+    "title": "Before you plan next year, do this one thing",
+    "author": "Lizzie Mulherin",
+    "url": "https://createyourliving.substack.com/p/before-you-plan-next-year-do-this",
+    "summary": "In a world obsessed with forward momentum, the key to meaningful progress might lie in looking backward first. Lizzie Mulherin challenges the rush toward new year planning, suggesting that intentional reflection reveals our true growth, hidden lessons, and unexpected wins. Through her own journey, she discovered that progress isn't linear, rest fuels creativity, and self-doubt often signals exciting new territory.",
+    "quote": "Self-doubt is a clue, not a stop sign.",
+    "topic_names": [
+      "Personal Development",
+      "Productivity",
+      "Psychology"
+    ],
+    "slug": "before-you-plan-next-year-do-this-one-thing"
+  },
+  {
+    "id": 62,
+    "title": "Sleep Deprived",
+    "author": "Jamal Robinson",
+    "url": "https://jamalrobinson.substack.com/p/056",
+    "summary": "A personal exploration of the struggle between productivity and genuine rest strikes a universal chord. Jamal Robinson discovers through his late-night battles with poor sleep habits that true rest isn't found in mindless TV consumption, but in the deliberate act of stepping away from the doing mindset. His journey reveals how protecting our downtime requires active resistance against society's endless push for busyness.",
+    "quote": "Rest is not something that the world gives us - it's never been a gift.",
+    "topic_names": [
+      "Personal Development",
+      "Poetry",
+      "Sleep"
+    ],
+    "slug": "sleep-deprived"
+  },
+  {
+    "id": 63,
+    "title": "TikTok is done for",
+    "author": "Taylor Lorenz",
+    "url": "https://www.usermag.co/p/tiktok-is-done-for",
+    "summary": "A sweeping analysis of digital culture reveals TikTok's imminent ban and its broader implications for free speech. Taylor Lorenz explores various tech controversies, from New Jersey's drone hysteria to the Sydney Sweeney social media backlash, painting a picture of how disconnected online discourse has become from reality. The piece weaves through viral moments, platform changes, and cultural shifts that define our current internet landscape.",
+    "quote": "These men have spent so much time consuming hyper-edited content, porn, and glamorized images of women, that they have forgotten what an actual flesh and blood woman looks like.",
+    "topic_names": [
+      "Culture",
+      "Social Media",
+      "Technology"
+    ],
+    "slug": "tiktok-is-done-for"
+  },
+  {
+    "id": 64,
+    "title": "The No-fluff Guide to AI Agents",
+    "author": "Michael Taylor",
+    "url": "https://every.to/also-true-for-humans/the-no-fluff-guide-to-ai-agents",
+    "summary": "A powerful analogy about calculators in school opens this exploration of how AI agents are set to transform workplace automation. Michael Taylor draws from his experience as a prompt engineer and former marketing agency owner to show how AI tools face similar challenges to human workers. He predicts that AI agents capable of navigating human interfaces could soon replace manual data entry and other routine tasks.",
+    "quote": "I'm not naturally gifted at doing multiplication in my head, but armed with a calculator app on my phone, I can be faster and more accurate than someone who doesn't have a calculator.",
+    "topic_names": [
+      "Artificial Intelligence",
+      "Technology",
+      "The Future of Work"
+    ],
+    "slug": "the-nofluff-guide-to-ai-agents"
+  },
+  {
+    "id": 65,
+    "title": "How we'll know if Trump is going to sell America out to China",
+    "author": "Noah Smith",
+    "url": "https://www.noahpinion.blog/p/how-well-know-if-trump-is-going-to",
+    "summary": "A detailed analysis of how Trump's potential handling of semiconductor export controls could signal America's stance against Chinese power. Noah Smith argues that while Trump's tariff threats grab headlines, the real test will be whether he maintains Biden's chip export restrictions. These controls have effectively slowed China's semiconductor advancement and preserved America's technological edge.",
+    "quote": "Just as only Nixon could go to China in the 1970s, we might find that only Trump could sell us out to China in the 2020s.",
+    "topic_names": [
+      "Economics",
+      "Politics",
+      "Technology"
+    ],
+    "slug": "how-well-know-if-trump-is-going-to-sell-america-out-to-china"
+  },
+  {
+    "id": 66,
+    "title": "How two brothers built Buy Me a Coffee to empower over 1 million creators worldwide",
+    "author": "Gracie Van",
+    "url": "https://whatastartup.substack.com/p/how-two-brothers-built-buy-me-a-coffee-to-empower-over-1-million-creators-worldwide",
+    "summary": "A simple idea to help content creators earn money transformed into a global platform supporting over a million creators worldwide. Two brothers from Kerala, India, turned their frustration with inconsistent blogging income into Buy Me a Coffee - a platform where fans can easily tip creators without commitments. Gracie Van details how Joseph and Jijo Sunny bootstrapped their way from a $1,600 domain purchase to a $4.9M annual revenue business, proving that solving real problems beats fancy connections.",
+    "quote": "Buy Me a Coffee proves that great ideas don't require big budgets or fancy connections\u2014just a clear vision, simplicity, and focus on solving real problems.",
+    "topic_names": [
+      "Creators",
+      "Entrepreneurship",
+      "Startups"
+    ],
+    "slug": "how-two-brothers-built-buy-me-a-coffee-to-empower-over-1-million-creators-worldwide"
+  },
+  {
+    "id": 67,
+    "title": "Netflix's withdrawal symptoms, and Africa's $10 billion gaming industry",
+    "author": "Oritsejolomi Otomewo",
+    "url": "https://www.readcommunique.com/p/netflix-nigeria-africa-gaming-industry",
+    "summary": "A seismic shift is occurring in Africa's media landscape as Netflix scales back its Nigerian originals amid global content reduction. Oritsejolomi Otomewo explores how the streaming giant's pivot coincides with Africa's gaming industry preparing for explosive growth from $2.16 billion to $10.81 billion by 2033. The analysis reveals how mobile gaming dominates the continent's market, with 200 million gamers and innovative local studios creating culturally relevant content.",
+    "quote": "Mobile gaming dominates the African market, accounting for 60% of all gaming activity.",
+    "topic_names": [
+      "Business",
+      "Gaming",
+      "Media"
+    ],
+    "slug": "netflixs-withdrawal-symptoms-and-africas-10-billion-gaming-industry"
+  },
+  {
+    "id": 68,
+    "title": "How to Become a Paid Writer in 2025",
+    "author": "Khadejah J",
+    "url": "https://storycraft855.substack.com/p/how-to-become-a-paid-writer-in-2025",
+    "summary": "A candid look at the path to profitable writing in the digital age. Khadejah J shares her journey from twice-quitting writer to earning $3k+ monthly through consistent publishing, strategic topic selection, and persuasive writing techniques. Her practical approach emphasizes daily writing habits, the 70/20/10 content rule, and emotional connection over perfect grammar to build a sustainable writing career.",
+    "quote": "Writing, especially online writing, is subjective.",
+    "topic_names": [
+      "Business",
+      "Personal Development",
+      "Writing"
+    ],
+    "slug": "how-to-become-a-paid-writer-in-2025"
+  },
+  {
+    "id": 69,
+    "title": "What Is Sora For?",
+    "author": "Alex Kantrowitz",
+    "url": "https://www.bigtechnology.com/p/what-is-sora-for",
+    "summary": "OpenAI's latest video generator creates stunning clips of pandas on subways and winking statues, but struggles to find its purpose. Alex Kantrowitz explores how Sora, while technically impressive, exists in a peculiar space - too low-quality for professional production yet too complex for casual users. The technology points toward AI's growing understanding of physical reality, potentially laying groundwork for robotics and real-world interactions.",
+    "quote": "AI video will certainly improve, but Sora and its counterparts seem high on cool factor and low on utility, at least for now.",
+    "topic_names": [
+      "Artificial Intelligence",
+      "Innovation",
+      "Technology"
+    ],
+    "slug": "what-is-sora-for"
+  },
+  {
+    "id": 70,
+    "title": "What data rights are for (#2)",
+    "author": "Mahdi Assan",
+    "url": "https://www.thecybersolicitor.com/p/what-data-rights-are-for-2",
+    "summary": "A deep dive into how Facebook's key features shaped its surveillance capitalism model. Through detailed analysis of the News Feed, targeted advertising, and Like button implementations, Mahdi Assan reveals how these systems work together to maximize data collection while minimizing privacy protections. The author demonstrates how this creates a self-reinforcing cycle that prioritizes engagement and revenue over user wellbeing.",
+    "quote": "Do not give your data to entities that are not incentivised to use it in your best interests.",
+    "topic_names": [
+      "Data Science",
+      "Technology"
+    ],
+    "slug": "what-data-rights-are-for-2"
+  },
+  {
+    "id": 71,
+    "title": "Writers on Writers- Lisa Col\u00f3n Delay",
+    "author": "Robert the contemplative",
+    "url": "https://musingsfromabrokenheart.substack.com/p/writers-on-writers-lisa-colon-delay",
+    "summary": "A heartfelt exploration of writing, spirituality, and cultural heritage through the lens of an interview. Lisa Col\u00f3n Delay shares her journey from childhood poetry to her current work on Desert Spirituality, revealing how her Puerto Rican roots and commitment to amplifying marginalized voices shape her creative process. Her writing focuses on overlooked historical figures and communities while drawing inspiration from resilient underdogs who maintain hope despite adversity.",
+    "quote": "What keeps me writing is also what keeps me creating: My curiosity, my desire to learn, grow, heal, and meaningfully connect with others, the Divine, and myself.",
+    "topic_names": [
+      "Culture",
+      "Literature",
+      "Writing"
+    ],
+    "slug": "writers-on-writers-lisa-colon-delay"
+  },
+  {
+    "id": 72,
+    "title": "How to Monetize Your Mind",
+    "author": "Ayodeji",
+    "url": "https://dontstarve.substack.com/p/how-to-monetize-your-mind",
+    "summary": "A comprehensive blueprint for turning skills and knowledge into a six-figure business within one year. Ayodeji breaks down the essential elements of successful entrepreneurship: the Profit Trifecta of enjoyable skills, audience attention, and viable marketplace. He emphasizes the importance of niching down, whether through coaching or done-for-you services, and introduces the intense Nightmare Protocol for rapid skill development.",
+    "quote": "Business isn't easy. But it's not complicated. The steps required are simple, but the execution is tough.",
+    "topic_names": [
+      "Business",
+      "Entrepreneurship",
+      "Personal Development"
+    ],
+    "slug": "how-to-monetize-your-mind"
+  },
+  {
+    "id": 73,
+    "title": "Great Campaigns Start With Great Copy",
+    "author": "Rachel Karten",
+    "url": "https://www.milkkarten.net/p/great-campaigns-start-with-great",
+    "summary": "A deep dive into the art of campaign validation through thoughtful copywriting. Rachel Karten reveals how starting with a clear thesis and compelling words can make or break marketing campaigns. Through expert insights from brands like Merit and creative leaders at FONZIE, she demonstrates how good copy acts as a lie detector test for campaign ideas, helping marketers avoid common pitfalls and create authentic connections.",
+    "quote": "Writing with 'gravitas' can cause your head to turn upward. Start with something true, let the truth resonate, then move in the direction of what you want to see in the world.",
+    "topic_names": [
+      "Business",
+      "Marketing",
+      "Writing"
+    ],
+    "slug": "great-campaigns-start-with-great-copy"
+  },
+  {
+    "id": 74,
+    "title": "The State of Design, In Four Parts",
+    "author": "Bobby Aaron Solomon",
+    "url": "https://thefoxisblack.substack.com/p/the-state-of-design-in-four-parts",
+    "summary": "A scathing critique of recent developments in mainstream design unfolds through four major events. Bobby Solomon examines Pentagram's controversial use of AI for government icons, Jaguar's impractical concept car, Pantone's uninspired color of the year, and Spotify Wrapped's hollow design. His analysis reveals how corporate decisions and AI adoption are reshaping creative industries, often at the expense of human artistry.",
+    "quote": "AI is inevitable because it's cheap and easy, but there is a bifurcation occurring made up of those who appreciate people for their skills, and those who comprise the Idiocracy.",
+    "topic_names": [
+      "Artificial Intelligence",
+      "Design",
+      "Technology"
+    ],
+    "slug": "the-state-of-design-in-four-parts"
+  },
+  {
+    "id": 75,
+    "title": "Why Are Huge Tech Companies Getting Into the Book Business?",
+    "author": "Ted Gioia",
+    "url": "https://www.honest-broker.com/p/why-are-huge-tech-companies-getting",
+    "summary": "A seismic shift is occurring in the publishing world as tech giants Microsoft and TikTok quietly launch book publishing ventures. Ted Gioia reveals how these moves, coupled with massive AI investments, signal a concerning pattern similar to what's happening in the music industry, where AI-generated content threatens to slash creator revenues. This shift marks phase three of the AI revolution: open warfare between tech companies and content creators, with transparency becoming a critical battleground.",
+    "quote": "The gaslighting is over\u2014you can't fool musicians anymore. They now fully grasp the AI business model\u2014which is to destroy their livelihood and replace human music with bot slop.",
+    "topic_names": [
+      "Artificial Intelligence",
+      "Technology",
+      "Writing"
+    ],
+    "slug": "why-are-huge-tech-companies-getting-into-the-book-business"
+  },
+  {
+    "id": 76,
+    "title": "When Convenience Kills",
+    "author": "Madison Huizinga",
+    "url": "https://madisonhuizinga.substack.com/p/when-convenience-kills",
+    "summary": "A thought-provoking exploration of how Trader Joe's embodies America's obsession with convenience through its ready-made meals and trendy food items. Madison Huizinga examines how the store's business model, while solving immediate needs, ultimately disconnects us from the sensory pleasures and essential human experiences of cooking, reflecting broader cultural shifts in our relationship with food preparation.",
+    "quote": "If we become so reliant on convenience, we'll lose the rewards found in doing hard things - from trying, failing, trying again, and perhaps again.",
+    "topic_names": [
+      "Business",
+      "Culture",
+      "Food"
+    ],
+    "slug": "when-convenience-kills"
+  },
+  {
+    "id": 77,
+    "title": "What the humans like is responsiveness",
+    "author": "Sasha Chapin",
+    "url": "https://sashachapin.substack.com/p/what-the-humans-like-is-responsiveness",
+    "summary": "A viral TikTok of a woman ordering food reveals a fundamental truth about human nature: we crave responsive interactions. Sasha Chapin explores how this quality - the ability to react genuinely and energetically to others - creates magnetic personalities and drives success stories like CD Baby's famous confirmation email. Beyond social charm, responsiveness emerges as a core human need, its absence potentially leading to burnout, gaming addiction, and social unrest.",
+    "quote": "Life is good if it squishes nicely when you poke it.",
+    "topic_names": [
+      "Culture",
+      "Personal Development",
+      "Psychology"
+    ],
+    "slug": "what-the-humans-like-is-responsiveness"
+  },
+  {
+    "id": 78,
+    "title": "The Case for Nonlinear Goal Setting",
+    "author": "Anne-Laure Le Cunff",
+    "url": "https://nesslabs.com/nonlinear-goal-setting",
+    "summary": "A fresh look at how traditional goal-setting methods may be holding us back, using Spotify's evolution from music streaming upstart to global powerhouse as a compelling example. Drawing from neuroscience and psychology research, the author explores why linear goals can trigger fear, stress, and reduced creativity in our VUCA world. They propose a more flexible, experiment-based approach that aligns better with how our brains actually process growth and rewards.",
+    "quote": "Nature rarely moves in straight lines, and neither does our personal and professional development.",
+    "topic_names": [
+      "Business",
+      "Personal Development",
+      "Psychology"
+    ],
+    "slug": "rethinking-goals-the-science-of-nonlinear-goal-setting"
+  },
+  {
+    "id": 79,
+    "title": "Where Geniuses Hide Today",
+    "author": "Tomas Pueyo",
+    "url": "https://unchartedterritories.tomaspueyo.com/p/where-geniuses-hide-today",
+    "summary": "Modern geniuses aren't missing - they're just working in new fields where innovation is still possible. Tomas Pueyo reveals how groundbreaking creators naturally gravitate toward unexplored territories like AI, digital media, and emerging technologies. Rather than trying to revolutionize centuries-old domains like painting or literature, today's brilliant minds are pioneering new frontiers in areas like Christopher Nolan's non-linear storytelling or Sam Altman's AI breakthroughs.",
+    "quote": "We wanted flying cars, instead we got 140 characters.",
+    "topic_names": [
+      "Culture",
+      "Innovation",
+      "Technology"
+    ],
+    "slug": "where-geniuses-hide-today"
+  },
+  {
+    "id": 80,
+    "title": "VibeCheck: OpenAI's Sora",
+    "author": "Aleena Vigoda",
+    "url": "https://every.to/context-window/vibe-check-openai-s-sora",
+    "summary": "OpenAI's text-to-video model Sora finally launches with an unexpected twist - it's a full video editing platform rather than just an API. Aleena Vigoda explores how the new Sora Turbo offers creative tools like Remix, Re-cut, and Blend, competing directly with traditional editing software. While excelling at abstract animations, the model still struggles with physics and human movements, suggesting its immediate impact may be strongest in commercial advertising and micro-game development.",
+    "quote": "If the creator economy democratized distribution, then the allocation economy is democratizing content production.",
+    "topic_names": [
+      "Artificial Intelligence",
+      "Innovation",
+      "Technology"
+    ],
+    "slug": "vibe-check-openais-sora"
+  },
+  {
+    "id": 81,
+    "title": "The new rules of media",
+    "author": "One Thing",
+    "url": "https://onethingnewsletter.substack.com/p/the-new-rules-of-media",
+    "summary": "A sharp dissection of digital media's evolving landscape reveals 20 essential principles for modern success. Kyle Chayka, along with media experts Delia Cai, David Cho, and Nick Quah, explores how personality cults, multi-platform presence, and parasocial relationships now drive audience engagement. Their analysis shows how traditional metrics have given way to direct audience relationships and the rising importance of being camera-ready in an increasingly video-first world.",
+    "quote": "Everything is a personality cult, and maybe just a cult. You have to cultivate your own, no matter how small.",
+    "topic_names": [
+      "Business",
+      "Culture",
+      "Media"
+    ],
+    "slug": "the-new-rules-of-media"
+  },
+  {
+    "id": 82,
+    "title": "I Gave Up on Goals. Here's How I Still Move Forward",
+    "author": "Alberto Cabas Vidani",
+    "url": "https://theunstoppablecreator.substack.com/p/adaptable-goal-setting-for-content-creators-and-solopreneurs",
+    "summary": "Traditional goal-setting falls short in our unpredictable world of content creation and entrepreneurship. Alberto Cabas Vidani reveals how embracing broad ambitions over specific targets led to better outcomes. Through personal setbacks with photography blogs, podcasting ventures, and pandemic disruptions, he discovered that adaptability and constant experimentation trump rigid planning. His approach focuses on setting directional aims while staying flexible enough to pivot when opportunities arise.",
+    "quote": "But enterprenurship taught me to relinquish control and embrace serendipity.",
+    "topic_names": [
+      "Entrepreneurship",
+      "Personal Development",
+      "Productivity"
+    ],
+    "slug": "i-gave-up-on-goals-heres-how-i-still-move-forward"
+  },
+  {
+    "id": 83,
+    "title": "Beach Person",
+    "author": "Frank Shyong",
+    "url": "https://frankbear.substack.com/p/beach-person",
+    "summary": "A candid exploration of identity transformation in the digital age begins with the author's decision to reinvent himself as a beach person after a trip to Hawaii. Frank Shyong reveals how modern identity-crafting has become a consumer-driven performance, from buying boogie boards to curating social media presence. His journey exposes broader truths about how technology and capitalism have transformed self-identity into something increasingly purchasable yet potentially hollow.",
+    "quote": "I think the self seems to be losing meaning as a concept overall. Our social technology offers this infinite ability to try on new selves.",
+    "topic_names": [
+      "Culture",
+      "Personal Development",
+      "Social Media"
+    ],
+    "slug": "beach-person"
+  },
+  {
+    "id": 84,
+    "title": "Why Great Ideas Get Watered Down (and How to Stop It)",
+    "author": "Rohan Dehal",
+    "url": "https://www.productartistry.com/p/why-great-ideas-get-watered-down",
+    "summary": "Most products fail not from poor execution, but from playing it too safe at the start. Rohan Dehal challenges the conventional wisdom of conservative MVPs, arguing that diluting bold ideas actually increases the risk of building something irrelevant. Through a practical framework, he demonstrates how focusing on a sacred hypothesis and embracing polarizing responses leads to more meaningful product experiments.",
+    "quote": "Early adopters don't want a watered-down version of what already exists\u2014they want a glimpse of what could be.",
+    "topic_names": [
+      "Innovation",
+      "Startups"
+    ],
+    "slug": "why-great-ideas-get-watered-down-and-how-to-stop-it"
+  },
+  {
+    "id": 85,
+    "title": "on social media etiquette",
+    "author": "Inigo Laguda",
+    "url": "https://www.bedroomcinemaclub.com/p/on-social-media-etiquette",
+    "summary": "A viral tweet ignites a deeper exploration of digital content ownership and attribution ethics in our social media age. Inigo Laguda examines how his own writing, stripped of context and credit, spreads across platforms like wildfire. Through personal experiences and cultural analysis, he reveals how our convenience-driven sharing habits often prioritize consumption over respect for creators.",
+    "quote": "I cannot stress this enough, I am writing to be a writer. I\u2019m not doing this for bants. I do not romanticise being a struggling artist whose genius is only recognised post-mortem.",
+    "topic_names": [
+      "Culture",
+      "Social Media",
+      "Writing"
+    ],
+    "slug": "on-social-media-etiquette"
+  },
+  {
+    "id": 86,
+    "title": "Human Intelligence, Inc.",
+    "author": "Jurgen Gravestein",
+    "url": "https://jurgengravestein.substack.com/p/human-intelligence-inc",
+    "summary": "From ChatGPT to DALL-E, AI systems appear to showcase remarkable intelligence. Jurgen Gravestein peels back the curtain to reveal how these technologies are actually remixes of human knowledge, built from scraped data and hidden human labor. He argues that our awe should be directed not at the AI companies, but at the generations of human minds whose work powers these systems.",
+    "quote": "Artificial intelligence is human intelligence, remixed.",
+    "topic_names": [
+      "Artificial Intelligence",
+      "Philosophy",
+      "Technology"
+    ],
+    "slug": "human-intelligence-inc"
+  },
+  {
+    "id": 87,
+    "title": "All behavior makes sense with sufficient information",
+    "author": "Adam Singer",
+    "url": "https://www.hottakes.space/p/all-behavior-makes-sense-with-sufficient",
+    "summary": "Human behavior might seem irrational at first glance, but logic emerges once we understand the hidden variables. Adam Singer explores how ghosting friends, questionable financial choices, and workplace dynamics all stem from invisible scripts shaped by personal experiences, fears, and survival instincts. Using poker as a compelling metaphor, he demonstrates how actions that appear foolish often carry deep strategic significance.",
+    "quote": "People aren't dumb. The world is hard.",
+    "topic_names": [
+      "Personal Development",
+      "Philosophy",
+      "Psychology"
+    ],
+    "slug": "all-behavior-makes-sense-with-sufficient-information"
+  },
+  {
+    "id": 88,
+    "title": "a one word difference",
+    "author": "Grace | Kizuna",
+    "url": "https://kizunanyc.substack.com/p/a-one-word-difference",
+    "summary": "Through a powerful lens of post-election reflection, Grace explores the profound impact of choosing to fight 'for' rather than 'against.' She addresses fears within marginalized communities while offering a stirring message of hope to Gen Z, who have inherited unprecedented global challenges yet possess remarkable awareness of humanity's interconnectedness.",
+    "quote": "Strength lies in the choice to still believe in beauty, joy, hope, and love in spite of those horrors.",
+    "topic_names": [
+      "Leadership",
+      "Personal Development",
+      "Politics"
+    ],
+    "slug": "a-one-word-difference"
+  },
+  {
+    "id": 89,
+    "title": "Hubris & Humility",
+    "author": "Garrett Kincaid",
+    "url": "https://garrettkincaid.substack.com/p/hubris-and-humility",
+    "summary": "A freshly graduated college student embarks on a backpacking journey through Iceland, convinced he has everything figured out. Garrett Kincaid's overconfidence quickly dissolves when he faces basic survival challenges, from ill-fitting gear to the fundamental question of how to relieve himself in the wilderness. Through a chance encounter with an experienced guide and a transformative moment in the highlands, he discovers that true freedom comes from embracing our human limitations.",
+    "quote": "There's nothing more humbling than not knowing how to shit, and there are few things more euphoric than shitting on the Moon.",
+    "topic_names": [
+      "Nature",
+      "Personal Development"
+    ],
+    "slug": "hubris-humility"
+  },
+  {
+    "id": 90,
+    "title": "Why the deep learning boom caught almost everyone by surprise",
+    "author": "Michael Spencer",
+    "url": "https://www.ai-supremacy.com/p/why-the-deep-learning-boom-caught",
+    "summary": "A fascinating journey through AI history reveals how three visionaries defied skepticism to spark the deep learning revolution. While experts dismissed neural networks, Fei-Fei Li built ImageNet, an unprecedented image dataset, Geoffrey Hinton persisted with neural network research for decades, and Jensen Huang adapted GPUs for non-gaming applications. Timothy Lee chronicles how their convergent innovations in 2012 transformed modern AI, despite widespread doubt from their peers.",
+    "quote": "Pre-ImageNet, people did not believe in data. Everyone was working on completely different paradigms in AI with a tiny bit of data.",
+    "topic_names": [
+      "Artificial Intelligence",
+      "Innovation",
+      "Technology"
+    ],
+    "slug": "why-the-deep-learning-boom-caught-almost-everyone-by-surprise"
+  },
+  {
+    "id": 91,
+    "title": "The Religion of Ramp",
+    "author": "Evan Armstrong",
+    "url": "https://every.to/napkin-math/the-religion-of-ramp",
+    "summary": "A fintech startup defies Silicon Valley norms by building a $7.6 billion company around a simple mission: helping businesses save time and money. Evan Armstrong reveals how Ramp's founders turned expense management software into one of the fastest-growing startups ever by preaching fiscal responsibility instead of wasteful spending. Through calculated decisions like rejecting millions in quick profits and aligning compensation with efficiency, they've created a true believers' movement in corporate finance.",
+    "quote": "It is hard to make $7.6 billion divine, but Eric Glyman is working on it.",
+    "topic_names": [
+      "Business",
+      "Finance",
+      "Startups"
+    ],
+    "slug": "the-religion-of-ramp"
+  },
+  {
+    "id": 92,
+    "title": "How to Build a Truly Useful AI Product",
+    "author": "Chris Pedregal",
+    "url": "https://every.to/thesis/how-to-build-a-truly-useful-ai-product",
+    "summary": "The rapid evolution of AI technology demands a new startup playbook. Through his experience building Granola, Chris Pedregal reveals four essential principles for AI product development: avoid solving temporary problems, leverage high-cost models early, prioritize contextual understanding, and focus on narrow, specific use cases. With AI models improving faster than applications can be built, success requires surfing the wave of progress rather than getting tumbled by it.",
+    "quote": "If building a startup is like playing a tough video game, building a startup in generative AI is like playing that video game at 2x speed.",
+    "topic_names": [
+      "Artificial Intelligence",
+      "Innovation",
+      "Startups"
+    ],
+    "slug": "how-to-build-a-truly-useful-ai-product"
+  },
+  {
+    "id": 93,
+    "title": "Launch When It's Good, Not When It's Perfect",
+    "author": "Matt Tomporowski",
+    "url": "https://matttomporowski.substack.com/p/launch-when-its-good-not-when-its",
+    "summary": "A candid exploration of the publishing process reveals how perfectionism can hinder creative progress. Matt Tomporowski shares insights from launching his second book, explaining why waiting for perfection often conflicts with real-world success. Drawing parallels between a toddler's first steps and creative endeavors, he demonstrates how embracing imperfection and launching when work is 'good enough' leads to growth and improvement.",
+    "quote": "A book is NEVER ready to launch.",
+    "topic_names": [
+      "Entrepreneurship",
+      "Personal Development",
+      "Writing"
+    ],
+    "slug": "launch-when-its-good-not-when-its-perfect"
+  },
+  {
+    "id": 94,
+    "title": "15 Times to use AI, and 5 Not to",
+    "author": "Ethan Mollick",
+    "url": "https://www.oneusefulthing.org/p/15-times-to-use-ai-and-5-not-to",
+    "summary": "A practical guide to AI's strategic use reveals fifteen scenarios where artificial intelligence shines and five where it falters. Ethan Mollick draws from both scientific research and hands-on experience to show how AI excels at tasks requiring quantity, translation between perspectives, and expert-verified work. But he warns against using it for learning new concepts, high-accuracy requirements, or situations where the struggle itself holds value.",
+    "quote": "AI is often most useful where we're already expert enough to spot its mistakes, yet least helpful in the deep work that made us experts in the first place.",
+    "topic_names": [
+      "Artificial Intelligence",
+      "Productivity",
+      "Technology"
+    ],
+    "slug": "15-times-to-use-ai-and-5-not-to"
+  },
+  {
+    "id": 95,
+    "title": "No time? No problem. Overcoming the productivity illusion",
+    "author": "Benjamin Antoine",
+    "url": "https://2hourcreatorstack.substack.com/p/no-time-no-problem-overcoming-the",
+    "summary": "A transformative look at how the common excuse 'I don't have time' masks deeper issues with energy management and creative fulfillment. Benjamin Antoine shares his personal burnout experience, revealing how focusing on energy levels rather than strict schedules leads to more sustainable creativity. His insight shows that authentic creation flows not from rigid productivity systems, but from genuine excitement and well-managed energy.",
+    "quote": "The problem isn't time\u2014it's how we manage our energy.",
+    "topic_names": [
+      "Creators",
+      "Personal Development",
+      "Productivity"
+    ],
+    "slug": "no-time-no-problem-overcoming-the-productivity-illusion"
+  },
+  {
+    "id": 96,
+    "title": "Inside the CEO shooter standom",
+    "author": "Taylor Lorenz",
+    "url": "https://www.usermag.co/p/inside-the-ceo-shooter-standom",
+    "summary": "A shocking Manhattan killing has morphed into an unexpected cultural phenomenon, as young people celebrate an unidentified gunman who shot a health insurance executive. Taylor Lorenz reveals how Gen Z has transformed the shooter into a symbol of resistance against healthcare inequity, creating memes, tattoos, and fancams while traditional media struggles to comprehend the public's response.",
+    "quote": "The majority of our news media is bought by billionaires.",
+    "topic_names": [
+      "Culture",
+      "Healthcare",
+      "Social Media"
+    ],
+    "slug": "inside-the-ceo-shooter-standom"
+  },
+  {
+    "id": 97,
+    "title": "Insurance companies aren't the main villain of the U.S. health system",
+    "author": "Noah Smith",
+    "url": "https://www.noahpinion.blog/p/insurance-companies-arent-the-main",
+    "summary": "A deep dive into the real cost drivers of American healthcare reveals a surprising truth: insurance companies aren't the primary culprits. Noah Smith demonstrates how providers, not insurers, are responsible for sky-high medical costs. While insurance companies like UnitedHealth Group operate on slim profit margins of 2-6%, healthcare providers charge substantially more than their international counterparts.",
+    "quote": "The insurance companies are simply hired to play the bad guy \u2014 and they're paid a relatively modest fee for that service.",
+    "topic_names": [
+      "Business",
+      "Economics",
+      "Healthcare"
+    ],
+    "slug": "insurance-companies-arent-the-main-villain-of-the-us-health-system"
+  },
+  {
+    "id": 98,
+    "title": "3 Offers That Can Make You $5,000 (Even With a Small Audience)",
+    "author": "Matt Giaro \u2699\ufe0f",
+    "url": "https://mattgiaro.substack.com/p/3-offers-that-can-make-you-5000-even",
+    "summary": "A counterintuitive guide to making money online without a massive following. Matt Giaro challenges the notion that creators need thousands of subscribers to earn well, drawing from his decade of experience making a full-time income with modest email lists of 2,000-8,000 subscribers. He reveals three proven strategies: premium done-for-you services, high-ticket coaching, and mini-courses bundled with group support.",
+    "quote": "You don't need a BIG audience to make money. You just need the RIGHT people on your list.",
+    "topic_names": [
+      "Business",
+      "Entrepreneurship",
+      "Marketing"
+    ],
+    "slug": "3-offers-that-can-make-you-5000-even-with-a-small-audience"
+  },
+  {
+    "id": 99,
+    "title": "The \"It Girl\" Economy",
+    "author": "Viktoriia Vasileva",
+    "url": "https://www.viksbusycorner.com/p/the-it-girl-economy",
+    "summary": "The business of being an internet \"it girl\" has evolved from fleeting cultural cachet to serious financial power. Viktoriia Vasileva examines how figures like Gabbriette Bechtel and Devon Lee Carlson have transformed from social media personalities into lucrative business entities, partnering with luxury brands and building personal empires. This shift marks a dramatic change from when downtown celebrities could only count on cool stories and press mentions.",
+    "quote": "Culture has shifted. We're all broadcasting all the time, famous in tiny circles of friends and followers.",
+    "topic_names": [
+      "Business",
+      "Fashion",
+      "Marketing"
+    ],
+    "slug": "the-it-girl-economy"
+  },
+  {
+    "id": 100,
+    "title": "How I built a $30k Writing Business In 12 months",
+    "author": "Derek Hughes",
+    "url": "https://derekhughes.substack.com/p/how-i-built-a-30k-writing-business",
+    "summary": "A practical roadmap for transforming writing into a profitable online business unfolds through five key steps. Derek Hughes reveals how he went from zero to earning thousands through coaching and digital products. His journey emphasizes the importance of emotional resilience, consistent content creation, and the patience to work without immediate rewards - a strategy that helped him build a 16,000-follower audience.",
+    "quote": "You're going to spend 12 months working for free, for potentially massive rewards in the future, but with no guarantees.",
+    "topic_names": [
+      "Entrepreneurship",
+      "Personal Development",
+      "Writing"
+    ],
+    "slug": "how-i-built-a-30k-writing-business-in-12-months"
+  },
+  {
+    "id": 101,
+    "title": "Found a Saturated Niche? Don't Run. Dive in!",
+    "author": "Alberto Cabas Vidani",
+    "url": "https://theunstoppablecreator.substack.com/p/saturated-niche-creators-opportunity",
+    "summary": "A panic-inducing moment when a major YouTuber entered his Notion tutorial space leads Alberto Cabas Vidani to share valuable insights about embracing crowded niches. Drawing parallels to the enduring success of medical TV dramas, he explains how saturated markets signal strong demand and provide ready-made audience validation. His experience running an Italian YouTube channel reveals how studying competitors' successful content can unlock unexpected opportunities.",
+    "quote": "If no one is talking about it, no one cares.",
+    "topic_names": [
+      "Entrepreneurship",
+      "Marketing"
+    ],
+    "slug": "found-a-saturated-niche-dont-run-dive-in"
+  },
+  {
+    "id": 102,
+    "title": "20 Questions for 2025",
+    "author": "Rahim Hirji",
+    "url": "https://boxofamazing.substack.com/p/20-questions-for-2025",
+    "summary": "A thought-provoking guide to meaningful goal setting emerges as we approach 2025. Rahim Hirji shares a framework that moves beyond typical New Year's resolutions, advocating for SMART objectives across relationships, health, career, and personal growth. Through his family's annual tradition of collaborative goal-setting, he demonstrates how structured reflection can drive meaningful progress in an increasingly AI-driven world.",
+    "quote": "If today were the last day of my life, would I do what I'm about to do today.",
+    "topic_names": [
+      "Personal Development",
+      "Productivity",
+      "The Future of Work"
+    ],
+    "slug": "20-questions-for-2025"
+  },
+  {
+    "id": 103,
+    "title": "iT's aLL aN iLLuSiOn \ud83e\ude84\ud83d\ude35\u200d\ud83d\udcab",
+    "author": "Kyle Raymond Fitzpatrick",
+    "url": "https://1234kyle5678.substack.com/p/its-all-an-illusion",
+    "summary": "A piercing exploration of our digital culture's hollow rituals and meaningless metrics. Kyle Raymond Fitzpatrick examines how Spotify Wrapped and similar year-end data dumps have devolved into performative exercises, while contrasting these trivialities with serious events like the UnitedHealthcare CEO shooting. The essay culminates in a fascinating reframing of America's holiday hierarchy, suggesting Thanksgiving may have quietly surpassed Christmas in cultural significance.",
+    "quote": "Wrapped 2024 felt hollow because it was a manifesting of demure bratty brain rot enshittification mindset: our overindulgence has turned to overstimulation as there are too many wrapped concepts.",
+    "topic_names": [
+      "Culture",
+      "Social Media",
+      "Technology"
+    ],
+    "slug": "its-all-an-illusion"
+  },
+  {
+    "id": 104,
+    "title": "The 'Work Less' January Experiment",
+    "author": "Landon Poburan",
+    "url": "https://landonpoburan.substack.com/p/the-work-less-january-experiment",
+    "summary": "A bold challenge to traditional work norms emerges from one entrepreneur's battle with burnout. Landon Poburan proposes cutting workdays by 20-25%, limiting focused work to six hours between 7 AM and 1 PM. Based on Stanford research and personal experience, this experiment aims to boost creativity, improve productivity, and foster better work-life balance through structured rest and intentional downtime.",
+    "quote": "It's about building a business that supports the life I desire to live instead of living a life that supports my business.",
+    "topic_names": [
+      "Personal Development",
+      "Productivity",
+      "The Future of Work"
+    ],
+    "slug": "the-work-less-january-experiment"
+  },
+  {
+    "id": 105,
+    "title": "What Are You Really Building?",
+    "author": "Lewis O\u2019Brien",
+    "url": "https://dblthink.substack.com/p/what-are-you-really-building",
+    "summary": "A timeless parable about three stonecutters reveals how perspective transforms identical work into vastly different experiences. Lewis O'Brien explores how one task can be viewed as tedious labor, purposeful craftsmanship, or visionary creation - demonstrating how our mindset shapes not just our work satisfaction, but our legacy.",
+    "quote": "The first saw monotony, the second saw purpose, the third saw legacy.",
+    "topic_names": [
+      "Leadership",
+      "Personal Development",
+      "Psychology"
+    ],
+    "slug": "what-are-you-really-building"
+  },
+  {
+    "id": 106,
+    "title": "The Chatbot Trap",
+    "author": "Charlie Guo",
+    "url": "https://www.ignorance.ai/p/the-chatbot-trap",
+    "summary": "Current AI interfaces are stuck in a limiting chatbot paradigm, similar to how early smartphones crammed desktop websites into mobile screens. Charlie Guo explores why chatbots create unnecessary cognitive load and suggests a return to direct manipulation interfaces that blend natural language with intuitive controls. His analysis reveals how products like Cursor and Shortwave point toward a future where AI capabilities become more accessible through domain-specific tools.",
+    "quote": "Right now, it feels like 95% of \"AI-enabled\" products I encounter have welded a chatbot to an existing SaaS app - and in reality, that number should be closer to 5%.",
+    "topic_names": [
+      "Artificial Intelligence",
+      "Design",
+      "Technology"
+    ],
+    "slug": "the-chatbot-trap"
+  },
+  {
+    "id": 107,
+    "title": "The Editorialization of Brand Social",
+    "author": "Kristen Vinakmens",
+    "url": "https://kristenvinakmens.substack.com/p/brand-social-gets-editorial",
+    "summary": "A fascinating shift is happening in brand social media as companies embrace high-concept editorial photography. Kristen Vinakmen explores how brands like Aritzia, Skims, and Chamberlain Coffee are adopting luxury fashion's playbook, creating magazine-style campaigns that prioritize artistic storytelling over algorithmic appeal. From Nara Smith's retro-futuristic lab scenes to FKA Twigs' gravity-defying performances, these brands are crafting visual narratives that offer respite from typical social media noise.",
+    "quote": "If you want to stand out on social now, do the opposite of what everyone else is doing, and you may reap the rewards.",
+    "topic_names": [
+      "Fashion",
+      "Marketing",
+      "Social Media"
+    ],
+    "slug": "brand-social-gets-editorial"
+  },
+  {
+    "id": 108,
+    "title": "Social Media: The Biggest Lie",
+    "author": "Carly Burr",
+    "url": "https://offlineworldwide.substack.com/p/social-media-the-biggest-lie",
+    "summary": "A compelling deconstruction of eight common excuses that keep us tethered to social media platforms. Carly Burr challenges the notion that social media is essential for connection, business growth, or staying relevant. She reveals how these digital spaces often create illusions of friendship while preventing deeper, more meaningful relationships and personal growth. Through practical alternatives and thoughtful analysis, she encourages readers to imagine a more intentional life beyond the scroll.",
+    "quote": "We live in a world where we have 457 online \"friends\" but no one to call when we're having a bad day.",
+    "topic_names": [
+      "Personal Development",
+      "Psychology",
+      "Social Media"
+    ],
+    "slug": "social-media-the-biggest-lie"
+  },
+  {
+    "id": 109,
+    "title": "Are We All Just Scrolling Through Life?",
+    "author": "Tu\u011fba Avci",
+    "url": "https://tugbaavci.substack.com/p/i-tried-to-live-but-i-got-distracted",
+    "summary": "A haunting exploration of our modern digital existence reveals how multitasking is destroying our focus and wellbeing. Tu\u011fba Avci examines the shocking cost of constant app-switching: a single phone distraction requires 25 minutes to regain focus, and daily digital interruptions can lower IQ more than smoking marijuana. Through this lens, she advocates for attention activism to combat tech companies' deliberate exploitation of human psychology.",
+    "quote": "We have spiralled into a world where our rationality, intelligence, and focus slip more and more away.",
+    "topic_names": [
+      "Personal Development",
+      "Psychology",
+      "Technology"
+    ],
+    "slug": "are-we-all-just-scrolling-through-life"
+  },
+  {
+    "id": 110,
+    "title": "New Evidence Changes How We Understand Inflation and Monetary Policy",
+    "author": "Keynesian Technology",
+    "url": "https://hackernoon.com/new-evidence-changes-how-we-understand-inflation-and-monetary-policy",
+    "summary": "This analysis challenges the standard New Keynesian model of inflation dynamics, revealing fundamental flaws in how economists understand monetary policy. Through stochastic equilibrium analysis and bifurcation theory, the research demonstrates that inflation is less forward-looking than previously thought and more influenced by past events. David Staines shows that central banks cannot fine-tune away economic fluctuations as easily as believed, requiring a significant rethinking of monetary policy.",
+    "quote": "Models that macroeconomists previously thought had multiple equilibria in fact have none.",
+    "topic_names": [
+      "Economics",
+      "Finance",
+      "Math"
+    ],
+    "slug": "new-evidence-changes-how-we-understand-inflation-and-monetary-policy-hackernoon"
+  },
+  {
+    "id": 111,
+    "title": "You're unhappy because the world keeps you in a constant state of desire",
+    "author": "Thomas Kuegler",
+    "url": "https://findingtom.substack.com/p/youre-unhappy-because-the-world-keeps-078",
+    "summary": "A raw exploration of how modern culture traps us in endless wanting. Thomas Kuegler draws from his past as a successful vlogger in the Philippines to reveal how chasing more - whether it's relationships, money, or fame - creates a cycle of discontent. He contrasts American hustle culture with the simple contentment he observes in Mexican and Filipino communities, suggesting that our obsession with more might be the root of our unhappiness.",
+    "quote": "In this hyper-Americanized GET AFTER IT MOTHER ****ER!!! world we live in, the pursuit of more is not just part of our culture, but thought to eventually give us happiness.",
+    "topic_names": [
+      "Culture",
+      "Personal Development",
+      "Psychology"
+    ],
+    "slug": "youre-unhappy-because-the-world-keeps-you-in-a-constant-state-of-desire"
+  },
+  {
+    "id": 112,
+    "title": "I Married Someone From A Different Country\u2014Here's What It's Been Like",
+    "author": "Thomas Kuegler",
+    "url": "https://findingtom.substack.com/p/i-married-someone-from-a-different",
+    "summary": "A chance meeting in a Mexican park leads to an unexpected love story filled with cultural clashes and deep connections. Thomas Kuegler navigates the challenges of marrying across cultures, from language barriers and public displays of affection to hot sauce on everything. Through their differences, he discovers that opposing worldviews and cultural gaps can create an extraordinarily powerful bond that transforms both partners.",
+    "quote": "Some men and women don't want that\u2014and that's fine\u2014but to me they're missing out on something important if they just stay in their bubble forever.",
+    "topic_names": [
+      "Culture",
+      "Personal Development",
+      "Relationships"
+    ],
+    "slug": "i-married-someone-from-a-different-countryheres-what-its-been-like"
+  },
+  {
+    "id": 113,
+    "title": "The HOLY SH*T moment hack no marketer is using",
+    "author": "Tom Orbach",
+    "url": "https://www.marketingideas.com/p/the-holy-sht-moment-hack-no-marketer",
+    "summary": "First-time reactions trump traditional marketing benefits, creating powerful social proof through genuine wow moments. Tom Orbach reveals how Meta successfully leveraged this psychology with their AR glasses launch, while Apple missed a similar opportunity with Vision Pro. He shares seven tactical approaches to manufacture these moments, from forcing painful before scenarios to creating artificial scarcity.",
+    "quote": "Features tell. Benefits sell. But first \"holy sh*t\" reactions? They show potential customers exactly what they're about to experience themselves.",
+    "topic_names": [
+      "Business",
+      "Marketing",
+      "Psychology"
+    ],
+    "slug": "the-holy-sht-moment-hack-no-marketer-is-using"
+  },
+  {
+    "id": 114,
+    "title": "Who Really Creates Trends? (Pinterest Predicts is here)",
+    "author": "Kira Klaas",
+    "url": "https://kiraklaas.substack.com/p/who-really-creates-trends-and-why",
+    "summary": "What happens when trend forecasting becomes trend creation? Through a deep dive into Pinterest Predicts 2025, Kira Klaas explores how the platform has evolved from predicting trends to actively shaping them. With an 80% accuracy rate and partnerships with major brands like Marriott Bonvoy and Urban Outfitters, Pinterest is orchestrating a self-reinforcing cycle where predictions become reality through strategic brand collaborations.",
+    "quote": "Are they predicting trends, or creating them?",
+    "topic_names": [
+      "Business",
+      "Marketing",
+      "Social Media"
+    ],
+    "slug": "who-really-creates-trends-pinterest-predicts-is-here"
+  },
+  {
+    "id": 115,
+    "title": "Why \"we\" want insurance executives dead",
+    "author": "Taylor Lorenz",
+    "url": "https://www.usermag.co/p/yes-we-want-insurance-executives",
+    "summary": "A viral reaction to a healthcare CEO's death reveals deep-seated American rage against the insurance industry. Taylor Lorenz examines how UnitedHealthcare's 32% claim denial rate - double the industry average - along with their flawed AI systems and profit-driven policies have created a powder keg of public sentiment. She argues that media outrage over social media reactions misses the broader context of systemic healthcare failures.",
+    "quote": "If you have watched a loved one die because an insurance conglomerate has denied their life saving treatment as a cost cutting measure, yes, it's natural to wish that the people who run such conglomerates would suffer the same fate.",
+    "topic_names": [
+      "Business",
+      "Culture",
+      "Healthcare"
+    ],
+    "slug": "why-we-want-insurance-executives-dead"
+  },
+  {
+    "id": 116,
+    "title": "Manifesting My Ideal Information Diet",
+    "author": "Garrett Kincaid",
+    "url": "https://garrettkincaid.substack.com/p/manifesting-my-ideal-information",
+    "summary": "A former finance major explores how to break free from mindless media consumption. Garrett Kincaid draws parallel between his natural aversion to sugary drinks and his quest to develop similar disgust for brain-rotting content. Through seven clear rules, including prioritizing books and boycotting algorithmic feeds, he builds a framework for more intentional engagement with digital content.",
+    "quote": "In every moment, I am either practicing mindfulness and focus or mindlessness and distraction.",
+    "topic_names": [
+      "Personal Development",
+      "Psychology",
+      "Technology"
+    ],
+    "slug": "manifesting-my-ideal-information-diet"
+  },
+  {
+    "id": 117,
+    "title": "A big part of my little success",
+    "author": "Anna Mackenzie",
+    "url": "https://annamackstack.substack.com/p/a-big-part-of-my-little-success",
+    "summary": "A revealing look at how reducing friction leads to meaningful action. Anna Mackenzie shares her journey of building a multi-six-figure portfolio career through simple but powerful systems. Her approach focuses on eliminating barriers through daily dashboards, templated emails, and streamlined workflows \u2013 preventing great ideas from dying in what she calls the cavern of inaction.",
+    "quote": "This cavern of time is where dreams go to die - it's a graveyard full of $100M dollar businesses, exquisite paintings and voices of a generation.",
+    "topic_names": [
+      "Entrepreneurship",
+      "Personal Development",
+      "Productivity"
+    ],
+    "slug": "a-big-part-of-my-little-success-1"
+  },
+  {
+    "id": 118,
+    "title": "When You Write, Quantity Kicks Quality's Ass",
+    "author": "Khadejah J",
+    "url": "https://storycraft855.substack.com/p/when-you-write-quantity-kicks-qualitys",
+    "summary": "A personal journey through prolific writing reveals an unexpected truth about success in online content creation. Khadejah J shares how publishing 540 articles in two years led to significant achievements on Medium, surpassing even more skilled writers through sheer consistency. Her approach combines daily idea generation, freestyle writing, and minimal editing\u2014proving that showing up regularly matters more than perfection.",
+    "quote": "People are more likely to pay attention to the person who plays outside the most.",
+    "topic_names": [
+      "Personal Development",
+      "Productivity",
+      "Writing"
+    ],
+    "slug": "when-you-write-quantity-kicks-qualitys-ass"
+  },
+  {
+    "id": 119,
+    "title": "Admitting What Is Obvious",
+    "author": "Dan Shipper",
+    "url": "https://every.to/chain-of-thought/admitting-what-is-obvious-206624f9-4dcf-4342-9689-742e63fe8992",
+    "summary": "A founder's journey to embracing his true identity as a writer leads to profound business and personal insights. Dan Shipper shares how denying obvious truths about ourselves comes at a great cost, and how his acceptance of being a writer rather than just a founder who writes transformed his approach to running Every. Drawing inspiration from successful creator-entrepreneurs like Bill Simmons, he discovers a path to blend creative work with business leadership.",
+    "quote": "Billions of dollars in value are wasted every year by people doing the high-status thing they wish they felt compelled to do instead of the weird, low-status thing they actually want to do.",
+    "topic_names": [
+      "Entrepreneurship",
+      "Personal Development",
+      "Writing"
+    ],
+    "slug": "admitting-what-is-obvious"
+  },
+  {
+    "id": 120,
+    "title": "The Greatest Threat to Writers",
+    "author": "Leigh Stein",
+    "url": "https://leighstein.substack.com/p/the-greatest-threat-to-writers",
+    "summary": "A provocative exploration of why writers resist sharing digital spaces with video creators, despite similar goals of building audiences and earning from their work. Leigh Stein challenges the literary community's elitism, arguing that the real threat isn't TikTokers or AI \u2013 it's the oversaturation of writers competing for limited opportunities. She advocates for embracing cross-platform collaboration and developing unique viewpoints to stand out.",
+    "quote": "As much as writers feel that AI poses an existential threat to their work, the real competition they face is each other.",
+    "topic_names": [
+      "Creators",
+      "Social Media",
+      "Writing"
+    ],
+    "slug": "the-greatest-threat-to-writers"
+  },
+  {
+    "id": 121,
+    "title": "How to be the best kind of drug",
+    "author": "Michael Thompson",
+    "url": "https://shybydesign.substack.com/p/how-to-be-the-best-kind-of-drug",
+    "summary": "A transformative encounter between Pharrell Williams and young musician Maggie Rogers reveals the power of authentic creativity. Michael Thompson uses this story to explore how creators become irresistible by combining contrasting influences into something entirely new - like Rogers blending folk and dance music. The key lies in respecting your past while embracing new directions, ultimately creating something uniquely yours.",
+    "quote": "The ones that define the future will be the brave ones who embrace their past and treat the present like a present.",
+    "topic_names": [
+      "Creativity",
+      "Music",
+      "Personal Development"
+    ],
+    "slug": "how-to-be-the-best-kind-of-drug"
+  },
+  {
+    "id": 122,
+    "title": "A big part of my little success",
+    "author": "Anna Mackenzie",
+    "url": "https://annamackstack.substack.com/p/a-big-part-of-my-little-success",
+    "summary": "A deep dive into how reducing friction leads to consistent action and achievement. Anna Mackenzie reveals her systematic approach to running a multi-six-figure portfolio career through practical tools like daily dashboards, templated emails, and streamlined workflows. Her bias for action, built through careful systems design, helps overcome common barriers like self-doubt and procrastination.",
+    "quote": "This cavern of time is where dreams go to die. It's a graveyard full of $100M dollar businesses, exquisite paintings and voices of a generation.",
+    "topic_names": [
+      "Entrepreneurship",
+      "Personal Development",
+      "Productivity"
+    ],
+    "slug": "a-big-part-of-my-little-success"
+  },
+  {
+    "id": 123,
+    "title": "The Parental Notion",
+    "author": "Johnathan Dodson",
+    "url": "https://actofparenting.substack.com/p/end-of-year-warp-up-whats-next-and",
+    "summary": "A deeply personal journey unfolds as a young father reflects on his unexpected life path. Johnathan Dodson, who became a father at 17 and husband at 22, shares how his initial notions of parenthood and success transformed through experience. Now approaching 30, he's creating a digital legacy through essays and musings that capture the profound beauty of intentional family life.",
+    "quote": "No story is more profound in one's life than that of family, whether it's the one we're born into, the one we lose, or the one we build with our own hands and hearts.",
+    "topic_names": [
+      "Culture",
+      "Personal Development",
+      "Writing"
+    ],
+    "slug": "end-of-year-warp-up-whats-next-and-bit-about-me"
+  },
+  {
+    "id": 124,
+    "title": "The Art of Wintering: Embracing Life's Natural Rhythms",
+    "author": "Anne-Laure Le Cunff",
+    "url": "https://nesslabs.com/wintering",
+    "summary": "When productivity dips and energy wanes, nature offers a powerful lesson in the art of wintering. Drawing from Katherine May's insights, the concept extends beyond seasonal changes to represent intentional periods of retreat and restoration. Just as animals adapt to survive harsh conditions, humans need these vital phases of pulling back to process challenges, rebuild neural pathways, and prepare for future growth.",
+    "quote": "Instead of enduring moments of darkness, we can welcome and honor them, so they lead to deep transformation and self-renewal.",
+    "topic_names": [
+      "Nature",
+      "Personal Development",
+      "Psychology"
+    ],
+    "slug": "the-art-of-wintering-how-to-find-strength-in-slowing-down"
+  },
+  {
+    "id": 125,
+    "title": "Low-Income Countries are Falling Behind",
+    "author": "Joseph Politano",
+    "url": "https://www.apricitas.io/p/low-income-countries-are-falling",
+    "summary": "Global poverty reduction has hit a devastating roadblock. Despite forty years of progress that reduced extreme poverty from 40% to under 10%, Joseph Politano reveals how COVID-19, inflation, and international conflicts have reversed these gains. The world's poorest nations now grow slower than wealthy ones, with annual per-capita output in the US being 26 times higher than low-income countries. Bright spots exist but many developing countries struggle to achieve economic convergence.",
+    "quote": "Between-country economic inequality is so large that the 10th percentile of American income is two and a half times as much as the 90th percentile of Indian income",
+    "topic_names": [
+      "Economics",
+      "Education",
+      "Politics"
+    ],
+    "slug": "lowincome-countries-are-falling-behind"
+  },
+  {
+    "id": 126,
+    "title": "This is Why You're Not Getting Subscribers",
+    "author": "Jennie O'Connor",
+    "url": "https://d0wntherabbith0le.substack.com/p/this-is-why-youre-not-getting-subscribers",
+    "summary": "A masterclass in maximizing Substack's limited profile real estate to attract more subscribers. Jennie O'Connor breaks down how creators can transform generic newsletter titles into magnetic brands, offering practical strategies for crafting compelling profile bios, elevator pitches, and publication descriptions. She presents solutions for both niched and multi-passionate writers, emphasizing the importance of personality-driven content and mobile-friendly formatting.",
+    "quote": "Sorry, but you're not Pamela Anderson. And even Pamela Anderson calls her publication something more compelling than Pam's Personal Substack.",
+    "topic_names": [
+      "Marketing",
+      "Personal Development",
+      "Writing"
+    ],
+    "slug": "this-is-why-youre-not-getting-subscribers"
+  },
+  {
+    "id": 127,
+    "title": "You Don't Need Permission To Be A Writer",
+    "author": "Matt Lillywhite",
+    "url": "https://mattlillywhite.substack.com/p/you-dont-need-permission-to-be-a",
+    "summary": "A raw exploration of creative self-doubt turns into an empowering call to action. Matt Lillywhite dismantles common writing myths \u2013 from needing the perfect niche to waiting for external validation \u2013 by sharing his journey from conspiracy-believing novice to successful writer. His message becomes clear: authentic writing isn't about perfection or formulas, but about showing up and trusting your voice.",
+    "quote": "I'm writing a first draft and reminding myself that I'm simply shoveling sand into a box so that later I can build castles",
+    "topic_names": [
+      "Creativity",
+      "Personal Development",
+      "Writing"
+    ],
+    "slug": "you-dont-need-permission-to-be-a-writer"
+  },
+  {
+    "id": 128,
+    "title": "Get Over the Fear of Monetizing with This Simple Mindset Shift",
+    "author": "Alberto Cabas Vidani",
+    "url": "https://theunstoppablecreator.substack.com/p/get-over-the-fear-of-monetizing-with",
+    "summary": "Money isn't the enemy of authentic content creation - it's the fuel that powers meaningful impact. Alberto Cabas Vidani explores how creators often struggle with monetization due to fears of judgment and audience perception. Drawing from his experience as both a musician and content creator, he reveals why treating content creation as a mere hobby isn't sustainable, especially when life commitments increase.",
+    "quote": "Money is the fuel that will keep you going so that you can have the impact you desire.",
+    "topic_names": [
+      "Business",
+      "Creators",
+      "Personal Development"
+    ],
+    "slug": "get-over-the-fear-of-monetizing-with-this-simple-mindset-shift"
+  },
+  {
+    "id": 129,
+    "title": "Learn the game, don\u2019t become the game",
+    "author": "Paul Millerd",
+    "url": "https://pmillerd.com/learn-the-game-dont-become-the-game/",
+    "summary": "What happens when we orient our lives around hacking tests instead of doing meaningful work? Drawing from Paul Graham's essay, Miller explores how the traditional path of gaming systems - from college admissions to corporate advancement - has become less necessary in today's economy. Miller shares his personal journey from being a master test-hacker to embracing authentic work, highlighting a crucial shift in how ambitious people can succeed without playing by old rules.",
+    "quote": "Don\u2019t win by hacking bad tests; win by doing meaningful work.",
+    "topic_names": [
+      "Business",
+      "Personal Development",
+      "The Future of Work"
+    ],
+    "slug": "learn-the-game-dont-become-the-game"
+  },
+  {
+    "id": 130,
+    "title": "Thread Boi Writing System\u2122",
+    "author": "Harrison Moore",
+    "url": "https://www.thenewworkday.com/p/mic-drop-thread-boi",
+    "summary": "A biting satire of modern social media writing trends that cleverly mocks the oversimplified, dopamine-driven content culture. Harrison Moore presents five tongue-in-cheek principles for 'successful' online writing, including removing nuance, mastering mic drops, and maximizing emotional ROI. Through playful jabs at single-line formatting and attention-economy writing, Moore exposes the absurdity of sacrificing depth for engagement.",
+    "quote": "If it cant be said in one sentence (preferably in fewer than six words) then it's not worth saying at all.",
+    "topic_names": [
+      "Culture",
+      "Social Media",
+      "Writing"
+    ],
+    "slug": "thread-boi-writing-systemtm"
+  },
+  {
+    "id": 131,
+    "title": "do you want it?",
+    "author": "Valerie",
+    "url": "https://clubreticent.substack.com/p/do-you-want-it",
+    "summary": "Valerie dissects the nature of wanting - not for a person or purchase, but for an unnamed experience that demands to bloom in silence. She wrestles with the vulnerability of admitting desires, comparing her history of wanting things with the present moment, all while carrying a blank piece of paper that symbolizes unlimited potential. The essay weaves through personal history, from Soviet upbringing to Mount Rainier confessions, ultimately arriving at a universal truth about courage.",
+    "quote": "I've been good at wanting, always, but never half as good at faith, and one needs both for proper alchemy.",
+    "topic_names": [
+      "Personal Development",
+      "Philosophy",
+      "Psychology"
+    ],
+    "slug": "do-you-want-it"
+  },
+  {
+    "id": 132,
+    "title": "Beyond Butter Chicken",
+    "author": "Perzen Patel",
+    "url": "https://perzen.substack.com/p/ai-bad-butter-chicken",
+    "summary": "A humorous exploration of butter chicken's transformation from authentic Murgh Makhani to a global phenomenon reveals deeper issues in Indian cuisine representation. Writer Perzen Patel examines how this single dish overshadows India's vast culinary diversity, while proposing how AI could help expand diners' palates beyond the stereotypical curry house menu. From personalized restaurant recommendations to smarter content algorithms, she envisions technology as a tool for celebrating regional Indian dishes rather than perpetuating oversimplified versions of classics.",
+    "quote": "AI won\u2019t fix bad butter chicken, but it can inspire us to explore the richness of Indian cuisine beyond it.",
+    "topic_names": [
+      "Artificial Intelligence",
+      "Culture",
+      "Food",
+      "Innovation",
+      "Technology"
+    ],
+    "slug": "can-ai-cure-the-world-of-bad-butter-chicken"
+  },
+  {
+    "id": 133,
+    "title": "no original thoughts club",
+    "author": "Tina Zhang",
+    "url": "https://digitaltinz.substack.com/p/no-original-thoughts-club",
+    "summary": "A thoughtful exploration of how algorithmic recommendations and fear of bad taste are reshaping our ability to form genuine opinions. Tina Zhang weaves personal anecdotes about Spotify playlists and childhood music choices with broader observations about the homogenization of style and language in digital culture. She argues that our increasing reliance on curated recommendations and fear of appearing uncool has created a culture where developing authentic taste requires deliberate resistance against algorithmic influences.",
+    "quote": "Three years ago I applied for a job at spotify where I presented an impassioned (and somewhat half baked) thesis on how the platform was missing out on the greenfield opportunity to become more social.",
+    "topic_names": [
+      "Culture",
+      "Music",
+      "Personal Development",
+      "Social Media",
+      "Technology"
+    ],
+    "slug": "no-original-thoughts-club"
+  },
+  {
+    "id": 134,
+    "title": "AI Isn't Your God\u2014But It Might Be Your Intern",
+    "author": "Rhea Purohit",
+    "url": "https://every.to/learning-curve/get-a-reality-check-on-ai",
+    "summary": "A fresh perspective on our relationship with AI challenges the prevailing god-like narrative surrounding the technology. Rhea Purohit argues that we should view AI more like an intern: linguistically capable but requiring guidance and collaboration. She explores how our tendency to equate language with intelligence, combined with AI's mysterious black-box nature, has led to unrealistic expectations. The key to maximizing AI's value lies not in treating it as an omniscient oracle, but in approaching it as a collaborative tool that needs direction and feedback.",
+    "quote": "We've been told that AI will either save or destroy humanity.",
+    "topic_names": [
+      "Artificial Intelligence",
+      "Innovation",
+      "Psychology",
+      "Technology",
+      "The Future of Work"
+    ],
+    "slug": "ai-isnt-your-godbut-it-might-be-your-intern"
+  },
+  {
+    "id": 135,
+    "title": "What is the P/E Ratio? A Beginner's Guide",
+    "author": "Jason Leonard",
+    "url": "https://finbrain.substack.com/p/what-is-the-pe-ratio-a-beginners",
+    "summary": "A practical exploration of the price-to-earnings ratio demystifies this crucial investment metric. Jason Leonard breaks down how P/E ratios help investors gauge whether a stock's price makes sense relative to company earnings. Through real-world examples like Delta Airlines and Nvidia, he illustrates why focusing solely on P/E ratios can mislead investors. The key insight: while P/E ratios offer a useful starting point, they must be considered alongside industry context, growth potential, and broader financial metrics.",
+    "quote": "Why do some companies have a share price that's just 5 times their earnings, while others are worth 50 times or more?",
+    "topic_names": [
+      "Business",
+      "Finance",
+      "Investing",
+      "Money",
+      "Personal Development"
+    ],
+    "slug": "what-is-the-pe-ratio-a-beginners-guide"
+  },
+  {
+    "id": 136,
+    "title": "Does 'building in public' actually work?",
+    "author": "Gracie Van",
+    "url": "https://whatastartup.substack.com/p/does-building-in-public-actually-work",
+    "summary": "A deep dive into the growing trend of startups sharing their journey transparently with their audience. Gracie Van explores how this approach creates authentic connections, generates valuable feedback, and builds community loyalty. Through real-world examples like Sahil Lavingia of Gumroad and Mai Pham of Alchemai, she demonstrates how public building transforms private projects into community-driven ventures. While acknowledging potential risks from competitors, the strategy proves particularly effective for attracting early adopters and media attention.",
+    "quote": "No matter how great your idea is, no one cares.",
+    "topic_names": [
+      "Business",
+      "Entrepreneurship",
+      "Marketing",
+      "Social Media",
+      "Startups"
+    ],
+    "slug": "does-building-in-public-actually-work-and-bring-more-customers-for-your-startup"
+  },
+  {
+    "id": 137,
+    "title": "Webinars Are Dead \u2014 Unless You're Doing These 2 Things",
+    "author": "Landon Poburan",
+    "url": "https://landonpoburan.substack.com/p/webinars-are-dead-unless-youre-building-your-email-list",
+    "summary": "The traditional webinar-to-sales-call model for selling high-ticket programs faces new challenges. Drawing from his experience managing $13 million in ads, Landon Poburan reveals that webinars' true value lies not in direct sales, but in their by-products: lead generation and brand building. He suggests that businesses can achieve similar results with simpler, lower-overhead approaches that prioritize profit margins over top-line revenue, challenging the conventional wisdom of scaling through expensive sales funnels.",
+    "quote": "I\u2019ve sold 5k, 10k, and $20k programs from webinars for clients. But a lot of people struggle.",
+    "topic_names": [
+      "Business",
+      "Entrepreneurship",
+      "Marketing",
+      "Sales",
+      "Social Media"
+    ],
+    "slug": "webinars-are-dead-unless-youre-doing-these-2-things"
+  },
+  {
+    "id": 138,
+    "title": "The Self-Control Crisis",
+    "author": "Adam Singer",
+    "url": "https://www.hottakes.space/p/the-self-control-crisis",
+    "summary": "Modern society's obsession with convenience and instant gratification has created a crisis of self-control. Adam Singer argues that our constant pursuit of easier solutions - from smartphone addiction to quick-fix medications - has weakened our capacity for delayed gratification and meaningful achievement. Through examples ranging from Wall-E's prescient warnings to our inability to sit quietly with our thoughts, he illustrates how this aversion to difficulty creates a paradox: the more we optimize for ease, the less satisfied we become. Singer suggests the path forward requires embracing discomfort and reclaiming our human agency.",
+    "quote": "In our hyper-stimulated culture the concept of self-control has become, to put it lightly, anachronistic.",
+    "topic_names": [
+      "Culture",
+      "Personal Development",
+      "Philosophy",
+      "Psychology",
+      "Technology"
+    ],
+    "slug": "the-selfcontrol-crisis"
+  },
+  {
+    "id": 139,
+    "title": "Beyond the Scroll: How the Post-TikTok Generation Frees Artists",
+    "author": "Maria Picard",
+    "url": "https://nouxme.substack.com/p/beyond-the-scroll-how-post-tiktok",
+    "summary": "A thought-provoking look at TikTok's waning influence in the music industry and the emerging shift back to authentic live performances. The author examines how viral TikTok success rarely translates to sustainable careers, with many artists struggling to convert digital fame into real-world ticket sales. Major labels are increasingly distancing themselves from TikTok-driven artists, while performers with modest streaming numbers but strong live presence are thriving in local scenes. This pattern mirrors previous platform transitions like MySpace to Facebook, suggesting a potential return to pre-digital discovery methods.",
+    "quote": "It\u2019s all fun and games until we look back at the history of cultural evolution and see a familiar pattern.",
+    "topic_names": [
+      "Business",
+      "Culture",
+      "Music",
+      "Social Media",
+      "Technology"
+    ],
+    "slug": "beyond-the-scroll-how-posttiktok-generation-will-set-artists-free"
+  },
+  {
+    "id": 140,
+    "title": "What's Going to Happen to Substack?",
+    "author": "Melissa Mistretta",
+    "url": "https://thinkingman.substack.com/p/whats-going-to-happen-to-substack",
+    "summary": "As Substack reaches a cultural tipping point of mainstream recognition, questions arise about its future direction. Melissa Mistretta examines the platform's commitment to free speech and its reader-supported model against the backdrop of potential growth challenges. She highlights the tension between maintaining Substack's principled stance on free expression and the temptation to follow social media giants' profitable but problematic ad-based models. The introduction of features like Notes signals both opportunity and risk, raising concerns about whether Substack can resist becoming another attention-exploiting echo chamber.",
+    "quote": "Substack is an alternative publishing platform\u2014a breath of fresh air among biased, ad-dependent media conglomerates.",
+    "topic_names": [
+      "Business",
+      "Media",
+      "Social Media",
+      "Technology",
+      "Writing"
+    ],
+    "slug": "whats-going-to-happen-to-substack"
+  },
+  {
+    "id": 141,
+    "title": "Gen Z really does have a work ethic problem",
+    "author": "Jean M. Twenge",
+    "url": "https://www.generationtechblog.com/p/gen-z-really-does-have-a-work-ethic",
+    "summary": "A dramatic shift in work attitudes has emerged among young people since 2020, backed by decades of survey data. Jean M. Twenge reveals how Gen Z's willingness to work overtime plunged from 54% to 36% between 2020-2022, marking historic lows in work motivation. The research shows today's 18-year-olds are less focused on career centrality, less willing to work without financial need, and surprisingly unconcerned about how their reduced work ethic might impact their job prospects. This shift could stem from pandemic burnout, cultural pessimism, or changing views about capitalism.",
+    "quote": "Older people often complain that the younger generation lacks a strong work ethic.",
+    "topic_names": [
+      "Business",
+      "Culture",
+      "Personal Development",
+      "Psychology",
+      "The Future of Work"
+    ],
+    "slug": "gen-z-really-does-have-a-work-ethic-problem"
+  },
+  {
+    "id": 142,
+    "title": "How to live an intellectually rich life",
+    "author": "Utsav Mamoria",
+    "url": "https://utsavmamoria.substack.com/p/how-to-live-an-intellectually-rich",
+    "summary": "The essay traces a journey through epistemic anxiety, capitalism, ignorance, and responsibility toward intellectual fulfillment. Its metaphorical landscapes and tools—like the Axe of Satisfaction and Torch of Curiosity—illustrate how diverse ideas and disciplined curiosity lead to emergence. Stories of thinkers like Hodgkin, Zhang, and Erdős show that truth-seeking requires humility, collaboration, and the courage to start over.",
+    "quote": "Our ideas, like life itself, flourish not through isolated brilliance but through emergence—born from diverse, abundant inputs and sustained by curiosity, routine, and the courage to begin again.",
+    "topic_names": [],
+    "slug": "how-to-live-an-intellectually-rich-life"
+  }
+]

@@ -1,0 +1,125 @@
+/* Base styles */
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400&display=swap');
+
+:root {
+  --font-geist-mono: 'Geist Mono';
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Utility classes */
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.relative {
+  position: relative;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.bg-gray-50 {
+  background-color: #F9FAFB;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.w-\[640px\] {
+  width: 640px;
+}
+
+.min-h-\[150px\] {
+  min-height: 150px;
+}
+
+.font-mono {
+  font-family: var(--font-geist-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.whitespace-pre-wrap {
+  white-space: pre-wrap;
+  font-size: 16px;
+  font-family: var(--font-geist-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  color: oklch(0.145 0 0);
+}
+
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.text-gray-500 {
+  color: #6B7280;
+}
+
+.hover\:text-gray-800:hover {
+  color: #1F2937;
+}
+
+.transition-colors {
+  transition-property: color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+/* Positioning classes */
+.top-4 {
+  top: 1rem;
+}
+
+.left-4 {
+  left: 1rem;
+}
+
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.right-4 {
+  right: 1rem;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
