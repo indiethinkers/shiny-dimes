@@ -19,12 +19,12 @@ export default async function Page({ params }: PageParams) {
 
       <Card initialStory={story} />
       <a
-        href="https://hunter.vc"
+        href="https://codenprose.com"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-4 right-4 text-sm text-gray-500 hover:text-gray-800 transition-colors font-medium"
       >
-        by hunter labs
+        by codenprose
       </a>
     </div>
   );
