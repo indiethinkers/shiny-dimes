@@ -1,6 +1,4 @@
 import { Metadata } from 'next';
-import Link from 'next/link';
-
 import Card from '@/components/Card';
 import stories from '../../../data/stories.json';
 

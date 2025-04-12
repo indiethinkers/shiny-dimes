@@ -1,9 +1,7 @@
 import Card from '@/components/Card';
 import storiesData from '@/data/stories.json';
 import type { Story } from '@/types';
-import Link from 'next/link';
-import Image from 'next/image';
-import { sample, sampleSize, without } from 'lodash';
+import { sample, without } from 'lodash';
 
 export const dynamic = 'force-dynamic';
 

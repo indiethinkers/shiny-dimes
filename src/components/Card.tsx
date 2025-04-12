@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useEffect } from 'react';
 import type { Story } from '@/types';
+import Link from 'next/link';
 import TypewriterQuote from './TypewriterQuote';
 
 export default function Card({ 
@@ -9,12 +9,6 @@ export default function Card({
 }: { 
   initialStory: Story;
 }) {
-  const [mounted, setMounted] = useState(false);
-
-  // Initialize on mount
-  useEffect(() => {
-    setMounted(true);
-  }, []);
 
   return (
     <div className="relative">
@@ -44,7 +38,7 @@ export default function Card({
         </div>
       </div>
       <div className="fixed bottom-4 left-4 text-sm text-gray-500">
-        <a href="/" className="hover:text-gray-700 transition-colors">shiny dimes</a>
+        <Link href="/" className="hover:text-gray-700 transition-colors">shiny dimes</Link>
       </div>
     </div>
   );
