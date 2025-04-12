@@ -16,31 +16,8 @@ export default async function Page({ params }: PageParams) {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 relative">
-      <Link
-        href="/"
-        className="fixed top-4 left-4 text-sm text-gray-500 hover:text-gray-800 transition-colors font-medium"
-      >
-        shiny dimes
-      </Link>
-      <div className="fixed top-4 right-4 flex items-center gap-4">
-        <img
-          src="/google.svg"
-          alt="Google"
-          className="h-8 w-auto hidden"
-        />
-        <a
-          href="https://chrome.google.com/webstore"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-sm text-gray-500 hover:text-gray-800 transition-colors font-medium"
-        >
-          download chrome extension
-        </a>
-      </div>
-      <Card 
-        initialStory={story} 
-        stories={stories}
-      />
+
+      <Card initialStory={story} />
       <a
         href="https://hunter.vc"
         target="_blank"
