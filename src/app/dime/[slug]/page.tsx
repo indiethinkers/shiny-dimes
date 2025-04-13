@@ -17,6 +17,14 @@ export default async function Page({ params }: PageParams) {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 relative">
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLScOZVI77oj81iubi5AgluN-vC6d4d9fdweAYmkVJlfcGW33DQ/viewform?usp=dialog"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed top-4 right-4 text-sm text-gray-500 hover:text-gray-700 transition-colors"
+      >
+        submit a dime
+      </a>
       <KeyboardHandler 
         allStories={stories}
       />
