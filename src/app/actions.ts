@@ -72,9 +72,13 @@ export async function fetchStoriesData(): Promise<Story[]> {
     const stories = rows.map((row: string, index: number) => {
       try {
         // Parse CSV line respecting quotes
-        const values = row.match(/(?:"([^"]*)"|([^,]+))(?:,|$)/g)?.map(value => {
-          // Remove enclosing quotes and any trailing comma outside quotes
-          return value.replace(/,\s*$/, '').replace(/^"(.*)"$/, '$1').trim();
+        const values = row.match(/(?:"([^"]*(?:""[^"]*)*)"|([^,]+))(?:,|$)/g)?.map(value => {
+          // Remove enclosing quotes, handle double quotes, and remove trailing comma
+          return value
+            .replace(/,\s*$/, '') // Remove trailing comma
+            .replace(/^"(.*)"$/, '$1') // Remove enclosing quotes
+            .replace(/""/g, '"') // Convert double quotes to single quotes
+            .trim();
         }) || [];
         
         const [id, title, quote, author, url = '', summary = '', slug = ''] = values;

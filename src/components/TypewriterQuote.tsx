@@ -85,7 +85,7 @@ export default function TypewriterQuote({ quote }: { quote: string }) {
 
   return (
     <div
-      className="whitespace-pre-wrap leading-relaxed text-center font-mono"
+      className="whitespace-pre-wrap leading-relaxed text-center font-mono w-full"
       style={{
         opacity,
         transition: 'opacity 1s ease-in-out',
