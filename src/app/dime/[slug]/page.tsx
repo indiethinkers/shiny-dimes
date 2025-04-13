@@ -1,12 +1,14 @@
 import { Metadata } from 'next';
 import Card from '@/components/Card';
-import stories from '../../../data/stories.json';
+import { fetchStoriesData } from '@/app/actions';
+import type { Story } from '@/types';
 
 type PageParams = { params: Promise<{ slug: string }> };
 
 export default async function Page({ params }: PageParams) {
   const { slug } = await params;
-  const story = stories.find((s) => s.slug === slug);
+  const stories = await fetchStoriesData();
+  const story = stories.find((s: Story) => s.slug === slug);
   
   if (!story) {
     return <div className="p-4">Story not found</div>;
@@ -14,29 +16,33 @@ export default async function Page({ params }: PageParams) {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 relative">
-
-      <Card initialStory={story} />
+      <Card 
+        initialStory={story} 
+        allStories={stories}
+      />
       <a
         href="https://codenprose.com"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-4 right-4 text-sm text-gray-500 hover:text-gray-800 transition-colors font-medium"
       >
-        by codenprose
+        hit the spacebar for another dime
       </a>
     </div>
   );
 }
 
 export async function generateStaticParams() {
-  return stories.map((story) => ({
+  const stories = await fetchStoriesData();
+  return stories.map((story: Story) => ({
     slug: story.slug,
   }));
 }
 
 export async function generateMetadata({ params }: PageParams): Promise<Metadata> {
   const { slug } = await params;
-  const story = stories.find((s) => s.slug === slug);
+  const stories = await fetchStoriesData();
+  const story = stories.find((s: Story) => s.slug === slug);
   
   if (!story) {
     return {
