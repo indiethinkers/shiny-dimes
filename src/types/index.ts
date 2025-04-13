@@ -1,5 +1,4 @@
 export interface Story {
-  objectID: number;
   id: number;
   title: string;
   author: string;

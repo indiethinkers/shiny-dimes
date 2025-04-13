@@ -5,7 +5,5 @@ export interface Story {
   url: string;
   summary: string;
   quote: string;
-  topic_names: string[];
   slug: string;
-  seenCount?: number;
 }
