@@ -62,8 +62,8 @@ export async function fetchStoriesData(): Promise<Story[]> {
       try {
         // Parse CSV line respecting quotes
         const values = row.match(/(?:"([^"]*)"|([^,]+))(?:,|$)/g)?.map(value => {
-          // Clean the value by removing quotes, commas, and extra whitespace
-          return value.replace(/["\s,]+$/, '').replace(/^"|"$/g, '').trim();
+          // Remove enclosing quotes and any trailing comma outside quotes
+          return value.replace(/,\s*$/, '').replace(/^"(.*)"$/, '$1').trim();
         }) || [];
         
         const [id, title, quote, author, url = '', summary = '', slug = ''] = values;
