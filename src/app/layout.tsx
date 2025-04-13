@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+// @ts-ignore
+// eslint-disable-next-line
 import { Analytics } from "@vercel/analytics/react"
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
