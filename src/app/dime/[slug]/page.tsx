@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Card from '@/components/Card';
+import KeyboardHandler from '@/components/KeyboardHandler';
 import { fetchStoriesData } from '@/app/actions';
 import type { Story } from '@/types';
 
@@ -16,18 +17,17 @@ export default async function Page({ params }: PageParams) {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 relative">
+      <KeyboardHandler 
+        allStories={stories}
+      />
       <Card 
         initialStory={story} 
         allStories={stories}
       />
-      <a
-        href="https://codenprose.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed bottom-4 right-4 text-sm text-gray-500 hover:text-gray-800 transition-colors font-medium"
-      >
+
+      <div className="fixed bottom-4 left-4 text-sm text-gray-500">
         hit the spacebar for another dime
-      </a>
+      </div>
     </div>
   );
 }

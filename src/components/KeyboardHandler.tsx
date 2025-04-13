@@ -1,10 +1,13 @@
-import Card from '@/components/Card';
-import KeyboardHandler from '@/components/KeyboardHandler';
+'use client';
+
+import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import type { Story } from '@/types';
 import { sample, without } from 'lodash';
-import { fetchStoriesData } from './actions';
 
-export const dynamic = 'force-dynamic';
+interface KeyboardHandlerProps {
+  allStories: Story[];
+}
 
 // Keep track of recently shown stories to avoid immediate repeats
 let recentStories: string[] = [];
@@ -62,28 +65,21 @@ function getRandomStory(stories: Story[]) {
   return selectedStory;
 }
 
+export default function KeyboardHandler({ allStories }: KeyboardHandlerProps) {
+  const router = useRouter();
 
+  useEffect(() => {
+    const handleKeyPress = (event: KeyboardEvent) => {
+      if (event.code === 'Space') {
+        event.preventDefault();
+        const nextStory = getRandomStory(allStories);
+        router.push(`/dime/${nextStory.slug}`);
+      }
+    };
 
-export default async function Home() {
-  console.log('Fetching stories data...');
-  const storiesData = await fetchStoriesData();
-  console.log('Stories data:', storiesData);
-  const initialStory = getRandomStory(storiesData);
-  console.log('Initial story:', initialStory);
+    window.addEventListener('keydown', handleKeyPress);
+    return () => window.removeEventListener('keydown', handleKeyPress);
+  }, [router, allStories]);
 
-  return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 relative">
-      <KeyboardHandler 
-        allStories={storiesData}
-      />
-      <Card 
-        initialStory={initialStory} 
-        allStories={storiesData}
-      />
-
-      <div className="fixed bottom-4 left-4 text-sm text-gray-500">
-        hit the spacebar for another dime
-      </div>
-    </div>
-  );
+  return null;
 }
