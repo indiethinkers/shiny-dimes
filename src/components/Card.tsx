@@ -1,9 +1,10 @@
 "use client";
 
-import type { Story } from '@/types';
 import Link from 'next/link';
-import TypewriterQuote from './TypewriterQuote';
+import { useRouter } from 'next/navigation';
 import { useEffect, useState, useRef } from 'react';
+import type { Story } from '@/types';
+import TypewriterQuote from './TypewriterQuote';
 
 export default function Card({ 
   initialStory,
@@ -12,6 +13,7 @@ export default function Card({
   initialStory: Story;
   allStories: Story[];
 }) {
+  const router = useRouter();
   const [currentStory, setCurrentStory] = useState(initialStory);
   const touchStartX = useRef<number | null>(null);
   const touchEndX = useRef<number | null>(null);
@@ -54,7 +56,8 @@ export default function Card({
       // If swipe distance is more than 50px, trigger the story change
       if (diff > 50) {
         const nextIndex = (allStories.findIndex(story => story.id === currentStory.id) + 1) % allStories.length;
-        setCurrentStory(allStories[nextIndex]);
+        const nextStory = allStories[nextIndex];
+        router.push(`/dime/${nextStory.slug}`);
       }
     }
   };
