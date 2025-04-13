@@ -34,7 +34,8 @@ export default async function Page({ params }: PageParams) {
       />
 
       <div className="fixed bottom-4 left-4 text-sm text-gray-500">
-        hit the spacebar for another dime
+        <span className="hidden md:inline">hit the spacebar for another dime</span>
+        <span className="md:hidden">swipe left for another dime</span>
       </div>
     </div>
   );
