@@ -3,7 +3,18 @@
 import type { Story } from '@/types';
 import axios from 'axios';
 
+// Cache stories data for 1 minute to avoid rate limits
+let cachedStories: Story[] | null = null;
+let lastFetchTime = 0;
+const CACHE_DURATION = 60 * 1000; // 1 minute in milliseconds
+
 export async function fetchStoriesData(): Promise<Story[]> {
+  // Return cached data if available and not expired
+  const now = Date.now();
+  if (cachedStories && (now - lastFetchTime) < CACHE_DURATION) {
+    return cachedStories;
+  }
+
   // Fallback data in case of fetch failure
   const staticStories: Story[] = [
     {
@@ -74,7 +85,11 @@ export async function fetchStoriesData(): Promise<Story[]> {
           url,
           summary,
           quote,
-          slug: slug || title.toLowerCase().replace(/[^a-z0-9]+/g, '-')
+          slug: slug || (() => {
+            // Create a hash of the title for the slug
+            const hash = Math.abs(title.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0)).toString(36);
+            return `story-${hash}`;
+          })()
         };
       } catch (rowError) {
         console.error('Error parsing row:', rowError);
@@ -87,6 +102,9 @@ export async function fetchStoriesData(): Promise<Story[]> {
       return staticStories;
     }
 
+    // Update cache
+    cachedStories = stories;
+    lastFetchTime = now;
     return stories;
   } catch (error) {
     console.error('Error fetching stories:', error);

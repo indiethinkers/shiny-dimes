@@ -42,9 +42,11 @@ export default async function Page({ params }: PageParams) {
 
 export async function generateStaticParams() {
   const stories = await fetchStoriesData();
+  // Use the story's slug directly, which is now a hash-based ID
   return stories.map((story: Story) => ({
     slug: story.slug,
   }));
+  // Note: Next.js will use this slug to generate the static paths
 }
 
 export async function generateMetadata({ params }: PageParams): Promise<Metadata> {
@@ -58,12 +60,16 @@ export async function generateMetadata({ params }: PageParams): Promise<Metadata
     };
   }
 
+  // Create a shorter version of the title for metadata
+  const shortTitle = story.title.length > 50 ? `${story.title.slice(0, 47)}...` : story.title;
+  const shortDescription = story.quote.length > 150 ? `${story.quote.slice(0, 147)}...` : story.quote;
+
   return {
-    title: `Shiny Dimes | ${story.title}`,
-    description: story.quote,
+    title: `Shiny Dimes | ${shortTitle}`,
+    description: shortDescription,
     openGraph: {
-      title: `Shiny Dimes | ${story.title}`,
-      description: story.quote,
+      title: `Shiny Dimes | ${shortTitle}`,
+      description: shortDescription,
       type: 'article',
       authors: [story.author],
     },
