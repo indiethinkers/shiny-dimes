@@ -15,37 +15,6 @@ export async function fetchStoriesData(): Promise<Story[]> {
     return cachedStories;
   }
 
-  // Fallback data in case of fetch failure
-  const staticStories: Story[] = [
-    {
-      id: 1,
-      title: 'The Power of Persistence',
-      author: 'Unknown',
-      quote: 'Success is not final, failure is not fatal: it is the courage to continue that counts.',
-      summary: 'A reminder that persistence is key to achieving our goals.',
-      url: '',
-      slug: 'power-of-persistence'
-    },
-    {
-      id: 2,
-      title: 'Daily Progress',
-      author: 'James Clear',
-      quote: 'Small improvements accumulate into remarkable results.',
-      summary: 'How tiny changes lead to significant outcomes.',
-      url: '',
-      slug: 'daily-progress'
-    },
-    {
-      id: 3,
-      title: 'Embrace the Journey',
-      author: 'Unknown',
-      quote: 'Life is about the journey, not the destination.',
-      summary: 'Finding joy in the process of growth and learning.',
-      url: '',
-      slug: 'embrace-journey'
-    }
-  ];
-
   try {
     // Convert edit URL to a public CSV URL
     const SHEET_ID = '1rOpf4FaW9VszMfkB8XfI8QuR6WMeGz-ABRBfkRW1x6o';
@@ -63,7 +32,7 @@ export async function fetchStoriesData(): Promise<Story[]> {
     
     if (!data) {
       console.warn('No data received from Google Sheets');
-      return staticStories;
+      return [];
     }
 
     const rows = data.split('\n').slice(1).filter(Boolean); // Skip header row
@@ -103,7 +72,7 @@ export async function fetchStoriesData(): Promise<Story[]> {
 
     if (stories.length === 0) {
       console.warn('No valid stories found in the sheet');
-      return staticStories;
+      return [];
     }
 
     // Update cache
@@ -112,6 +81,6 @@ export async function fetchStoriesData(): Promise<Story[]> {
     return stories;
   } catch (error) {
     console.error('Error fetching stories:', error);
-    return staticStories;
+    return [];
   }
 }

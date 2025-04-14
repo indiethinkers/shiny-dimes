@@ -15,6 +15,8 @@ export default async function Page({ params }: PageParams) {
     return <div className="p-4">Story not found</div>;
   }
 
+  console.log('story', story);
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 relative">
       <div className="fixed top-4 right-4 flex gap-2">
