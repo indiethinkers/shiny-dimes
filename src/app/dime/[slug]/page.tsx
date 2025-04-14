@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { fetchStoriesData } from '@/app/actions';
+import { fetchStoriesData, fetchStoryBySlug } from '@/app/actions';
 import type { Story } from '@/types';
 import ClientPage from './client-page';
 
@@ -22,8 +22,8 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const stories = await fetchStoriesData();
-  const story = stories.find((s: Story) => s.slug === slug);
+  // Fetch only the specific story needed for metadata
+  const story = await fetchStoryBySlug(slug);
   
   if (!story) {
     return {

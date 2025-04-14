@@ -63,6 +63,7 @@ export default function Home() {
       if (isFadingOut) return; // Prevent multiple triggers
 
       const nextStory = getRandomStory(stories);
+      router.prefetch(`/dime/${nextStory.slug}`); // Prefetch the next page
       setIsFadingOut(true);
 
       // Wait for fade-out animation (e.g., 300ms) before navigating

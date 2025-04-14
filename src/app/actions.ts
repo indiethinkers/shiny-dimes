@@ -84,3 +84,14 @@ export async function fetchStoriesData(): Promise<Story[]> {
     return [];
   }
 }
+
+export async function fetchStoryBySlug(slug: string): Promise<Story | null> {
+  try {
+    const stories = await fetchStoriesData(); // Ensures data is fetched/cached
+    const story = stories.find(s => s.slug === slug);
+    return story || null;
+  } catch (error) {
+    console.error(`Error fetching story by slug ${slug}:`, error);
+    return null;
+  }
+}
