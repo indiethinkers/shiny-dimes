@@ -29,24 +29,6 @@ export default function Card({
     isMobileRef.current = window.matchMedia('(max-width: 768px)').matches;
   }, [initialStory]);
 
-  useEffect(() => {
-    const handleKeyPress = (event: KeyboardEvent) => {
-      if (event.code === 'Space' && currentStory) {
-        console.log('Space pressed');
-        event.preventDefault();
-        const currentIndex = allStories.findIndex(story => story.id === currentStory.id);
-        console.log('Current index:', currentIndex);
-        const nextIndex = (currentIndex + 1) % allStories.length;
-        console.log('Next index:', nextIndex);
-        console.log('Next story:', allStories[nextIndex]);
-        setCurrentStory(allStories[nextIndex]);
-      }
-    };
-
-    window.addEventListener('keydown', handleKeyPress);
-    return () => window.removeEventListener('keydown', handleKeyPress);
-  }, [allStories, currentStory]);
-
   const handleTouchStart = (e: React.TouchEvent) => {
     touchStartX.current = e.touches[0].clientX;
   };
