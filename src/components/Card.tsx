@@ -8,10 +8,12 @@ import TypewriterQuote from './TypewriterQuote';
 
 export default function Card({ 
   initialStory,
-  allStories
+  allStories,
+  isFadingOut
 }: { 
   initialStory: Story;
   allStories: Story[];
+  isFadingOut: boolean;
 }) {
   const router = useRouter();
   const touchStartX = useRef<number | null>(null);
@@ -61,7 +63,10 @@ export default function Card({
       </div>
 
       <div className="w-full max-w-2xl mx-auto px-4">
-        <div className="min-h-[150px] font-mono flex flex-col items-center">
+        {/* Apply transition and conditional opacity */}
+        <div 
+          className={`min-h-[150px] font-mono flex flex-col items-center transition-opacity duration-300 ease-in-out ${isFadingOut ? 'opacity-0' : 'opacity-100'}`}
+        >
           {!mounted ? null : (
             <>
               {currentStory && (

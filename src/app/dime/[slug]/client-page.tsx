@@ -44,6 +44,7 @@ export default function ClientPage({ slug }: ClientPageProps) {
       <Card 
         initialStory={story} 
         allStories={stories}
+        isFadingOut={false}
       />
 
       <div className="fixed bottom-4 left-4 text-sm text-gray-500">

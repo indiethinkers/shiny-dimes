@@ -1,7 +1,8 @@
 'use client';
 
+import { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import Card from '@/components/Card';
-import KeyboardHandler from '@/components/KeyboardHandler';
 import { useStories } from '@/components/StoriesProvider';
 import type { Story } from '@/types';
 import { sample, without } from 'lodash';
@@ -37,11 +38,72 @@ function getRandomStory(stories: Story[]) {
   return selectedStory;
 }
 
-
-
 export default function Home() {
   const stories = useStories();
-  const initialStory = getRandomStory(stories);
+  const router = useRouter();
+  const [isFadingOut, setIsFadingOut] = useState(false);
+
+  // Get initial story without adding to recent list yet
+  const initialStory = sample(stories)!;
+
+  // Add initial story to recent list after component mounts
+  useEffect(() => {
+    if (initialStory && !recentStories.includes(initialStory.slug)) {
+      recentStories.push(initialStory.slug);
+      if (recentStories.length > MAX_RECENT) {
+        recentStories.shift();
+      }
+    }
+  }, [initialStory]);
+
+  useEffect(() => {
+    let navigationTimeout: NodeJS.Timeout | null = null;
+
+    const triggerTransition = () => {
+      if (isFadingOut) return; // Prevent multiple triggers
+
+      const nextStory = getRandomStory(stories);
+      setIsFadingOut(true);
+
+      // Wait for fade-out animation (e.g., 300ms) before navigating
+      navigationTimeout = setTimeout(() => {
+        router.push(`/dime/${nextStory.slug}`);
+        // Reset fade state after navigation (optional, depends on desired effect)
+        // setIsFadingOut(false); 
+      }, 300); 
+    };
+
+    const handleKeyPress = (event: KeyboardEvent) => {
+      if (event.code === 'Space') {
+        event.preventDefault();
+        triggerTransition();
+      }
+    };
+
+    let lastTap = 0;
+    const handleDoubleTap = (event: TouchEvent) => {
+      const currentTime = new Date().getTime();
+      const tapLength = currentTime - lastTap;
+      
+      if (tapLength < 300 && tapLength > 0) { // Double tap detected
+        event.preventDefault();
+        triggerTransition();
+      }
+      lastTap = currentTime;
+    };
+
+    window.addEventListener('keydown', handleKeyPress);
+    window.addEventListener('touchend', handleDoubleTap);
+    
+    // Cleanup function
+    return () => {
+      window.removeEventListener('keydown', handleKeyPress);
+      window.removeEventListener('touchend', handleDoubleTap);
+      if (navigationTimeout) {
+        clearTimeout(navigationTimeout);
+      }
+    };
+  }, [router, stories]); // Correct dependency array
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 relative">
@@ -64,12 +126,10 @@ export default function Home() {
           subscribe
         </a>
       </div>
-      <KeyboardHandler 
-        allStories={stories}
-      />
       <Card 
         initialStory={initialStory} 
         allStories={stories}
+        isFadingOut={isFadingOut} // Pass fade state
       />
 
       <div className="fixed bottom-4 left-4 text-sm text-gray-500">
