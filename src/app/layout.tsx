@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Geist, Geist_Mono } from "next/font/google";
+import { fetchStoriesData } from './actions';
+import StoriesProvider from '@/components/StoriesProvider';
 import "./globals.css";
 
 const geistSans = Geist({
@@ -29,11 +31,13 @@ export const metadata: Metadata = {
   }
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const stories = await fetchStoriesData();
+
   return (
     <html lang="en">
       <body
@@ -45,7 +49,9 @@ export default function RootLayout({
             <SpeedInsights />
           </>
         )}
-        {children}
+        <StoriesProvider stories={stories}>
+          {children}
+        </StoriesProvider>
       </body>
     </html>
   );

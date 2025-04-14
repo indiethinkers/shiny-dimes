@@ -4,44 +4,18 @@ import Card from '@/components/Card';
 import KeyboardHandler from '@/components/KeyboardHandler';
 import { useStories } from '@/components/StoriesProvider';
 import type { Story } from '@/types';
-import { sample, without } from 'lodash';
 
-export const dynamic = 'force-dynamic';
+type ClientPageProps = {
+  slug: string;
+};
 
-// Keep track of recently shown stories to avoid immediate repeats
-let recentStories: string[] = [];
-const MAX_RECENT = 3;
-
-function getRandomStory(stories: Story[]) {
-  // Filter out recently shown stories
-  const availableStories = without(
-    stories, 
-    ...stories.filter(story => recentStories.includes(story.slug))
-  );
-  
-  // If we've filtered out all stories, reset and use all stories
-  if (availableStories.length === 0) {
-    recentStories = [];
-    return sample(stories)!;
-  }
-
-  // Get a random story from available ones
-  const selectedStory = sample(availableStories)!;
-  
-  // Update recent stories for immediate repeat prevention
-  recentStories.push(selectedStory.slug);
-  if (recentStories.length > MAX_RECENT) {
-    recentStories.shift();
-  }
-  
-  return selectedStory;
-}
-
-
-
-export default function Home() {
+export default function ClientPage({ slug }: ClientPageProps) {
   const stories = useStories();
-  const initialStory = getRandomStory(stories);
+  const story = stories.find((s: Story) => s.slug === slug);
+  
+  if (!story) {
+    return <div className="p-4">Story not found</div>;
+  }
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 relative">
@@ -68,7 +42,7 @@ export default function Home() {
         allStories={stories}
       />
       <Card 
-        initialStory={initialStory} 
+        initialStory={story} 
         allStories={stories}
       />
 

@@ -14,18 +14,24 @@ export default function Card({
   allStories: Story[];
 }) {
   const router = useRouter();
-  const [currentStory, setCurrentStory] = useState(initialStory);
   const touchStartX = useRef<number | null>(null);
   const touchEndX = useRef<number | null>(null);
   const isMobileRef = useRef<boolean>(false);
+  const [mounted, setMounted] = useState(false);
 
+  // Don't initialize state with initialStory to avoid hydration mismatch
+  const [currentStory, setCurrentStory] = useState<Story | null>(null);
+
+  // Handle initialization after mount
   useEffect(() => {
+    setMounted(true);
+    setCurrentStory(initialStory);
     isMobileRef.current = window.matchMedia('(max-width: 768px)').matches;
-  }, []);
+  }, [initialStory]);
 
   useEffect(() => {
     const handleKeyPress = (event: KeyboardEvent) => {
-      if (event.code === 'Space') {
+      if (event.code === 'Space' && currentStory) {
         console.log('Space pressed');
         event.preventDefault();
         const currentIndex = allStories.findIndex(story => story.id === currentStory.id);
@@ -54,7 +60,7 @@ export default function Card({
       const diff = touchStartX.current - touchEndX.current;
       
       // If swipe distance is more than 50px, trigger the story change
-      if (diff > 50) {
+      if (diff > 50 && currentStory) {
         const nextIndex = (allStories.findIndex(story => story.id === currentStory.id) + 1) % allStories.length;
         const nextStory = allStories[nextIndex];
         router.push(`/dime/${nextStory.slug}`);
@@ -72,20 +78,22 @@ export default function Card({
         <Link href="/" className="hover:text-gray-700 transition-colors">shiny dimes</Link>
       </div>
 
-      <div className="w-full max-w-2xl mx-auto px-4" key={currentStory.id}>
+      <div className="w-full max-w-2xl mx-auto px-4">
         <div className="min-h-[150px] font-mono flex flex-col items-center">
-          <TypewriterQuote quote={currentStory.quote} />
-          <div className="mt-6">
-            <a
-              href={currentStory.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm text-gray-500 hover:text-gray-700 transition-colors"
-              style={{
-                opacity: 0,
-                animation: 'fadeIn 2s ease-in-out forwards',
-                animationDelay: '0.5s'
-              }}>
+          {!mounted ? null : (
+            <>
+              <TypewriterQuote key={currentStory?.id} quote={currentStory?.quote || ''} />
+              <div className="mt-6">
+                <a
+                  href={currentStory?.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-gray-500 hover:text-gray-700 transition-colors"
+                  style={{
+                    opacity: 0,
+                    animation: 'fadeIn 2s ease-in-out forwards',
+                    animationDelay: '0.5s'
+                  }}>
               <style jsx>{`
                 @keyframes fadeIn {
                   from { opacity: 0; }
@@ -93,8 +101,10 @@ export default function Card({
                 }
               `}</style>
               (view essay)
-            </a>
-          </div>
+                </a>
+              </div>
+            </>
+          )}
         </div>
       </div>
 
