@@ -26,7 +26,7 @@ export default async function Page({ params }: PageParams) {
         >
           submit
         </a>
-        <span className="text-sm text-gray-500">//</span>
+        <span className="text-sm text-gray-500">{'//'}</span>
         <a
           href="https://indiethinkers.com/subscribe"
           target="_blank"
