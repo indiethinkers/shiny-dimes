@@ -99,7 +99,10 @@ export default function Card({
       </div>
 
       <div className="fixed bottom-4 right-4 text-sm text-gray-500">
-        by codenprose
+        <span>by </span>
+        <a href="https://indiethinkers.com" target="_blank" rel="noopener" className="text-gray-500 hover:text-gray-800 transition-colors font-medium">
+          indie thinkers
+        </a>
       </div>
     </div>
   );

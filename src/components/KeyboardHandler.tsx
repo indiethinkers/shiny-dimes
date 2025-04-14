@@ -77,8 +77,26 @@ export default function KeyboardHandler({ allStories }: KeyboardHandlerProps) {
       }
     };
 
+    let lastTap = 0;
+    const handleDoubleTap = (event: TouchEvent) => {
+      const currentTime = new Date().getTime();
+      const tapLength = currentTime - lastTap;
+      
+      if (tapLength < 300 && tapLength > 0) {
+        event.preventDefault();
+        const nextStory = getRandomStory(allStories);
+        router.push(`/dime/${nextStory.slug}`);
+      }
+      lastTap = currentTime;
+    };
+
     window.addEventListener('keydown', handleKeyPress);
-    return () => window.removeEventListener('keydown', handleKeyPress);
+    window.addEventListener('touchend', handleDoubleTap);
+    
+    return () => {
+      window.removeEventListener('keydown', handleKeyPress);
+      window.removeEventListener('touchend', handleDoubleTap);
+    };
   }, [router, allStories]);
 
   return null;
