@@ -3,13 +3,14 @@ import { fetchStoriesData } from '@/app/actions';
 import type { Story } from '@/types';
 import ClientPage from './client-page';
 
-interface PageProps {
-  params: { slug: string };
-  searchParams: { [key: string]: string | string[] | undefined };
-}
+type PageProps = {
+  params: Promise<{ slug: string }>;
+  searchParams?: Promise<{ [key: string]: string | string[] | undefined }>;
+};
 
-export default function Page({ params }: PageProps) {
-  return <ClientPage slug={params.slug} />;
+export default async function Page({ params }: PageProps) {
+  const { slug } = await params;
+  return <ClientPage slug={slug} />;
 }
 
 export async function generateStaticParams() {
@@ -20,8 +21,9 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { slug } = await params;
   const stories = await fetchStoriesData();
-  const story = stories.find((s: Story) => s.slug === params.slug);
+  const story = stories.find((s: Story) => s.slug === slug);
   
   if (!story) {
     return {
