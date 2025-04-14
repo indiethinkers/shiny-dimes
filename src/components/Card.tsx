@@ -82,11 +82,13 @@ export default function Card({
         <div className="min-h-[150px] font-mono flex flex-col items-center">
           {!mounted ? null : (
             <>
-              <TypewriterQuote key={currentStory?.id} quote={currentStory?.quote || ''} />
-              <div className="mt-6">
-                <a
-                  href={currentStory?.url}
-                  target="_blank"
+              {currentStory && (
+                <>
+                  <TypewriterQuote key={currentStory?.id} quote={currentStory?.quote || ''} />
+                  <div className="mt-6">
+                    <a
+                      href={currentStory?.url}
+                      target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-gray-500 hover:text-gray-700 transition-colors"
                   style={{
@@ -103,6 +105,8 @@ export default function Card({
               (view essay)
                 </a>
               </div>
+                </>
+              )}
             </>
           )}
         </div>
