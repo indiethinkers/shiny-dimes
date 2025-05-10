@@ -30,7 +30,7 @@ export default function ClientPage({ slug }: ClientPageProps) {
         </a>
         <span className="text-sm text-gray-500">{'//'}</span>
         <a
-          href="https://indiethinkers.com/subscribe"
+          href="https://codenprose.com/subscribe"
           target="_blank"
           rel="noopener noreferrer"
           className="text-sm text-gray-500 hover:text-gray-700 transition-colors"

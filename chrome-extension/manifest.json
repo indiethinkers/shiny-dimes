@@ -3,7 +3,7 @@
   "name": "Shiny Dimes",
   "version": "1.0",
   "description": "Get a new quote when you open a tab.",
-  "author": "Indie Thinkers",
+  "author": "Code & Prose",
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
