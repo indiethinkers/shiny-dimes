@@ -43,7 +43,6 @@ export default function ClientPage({ slug }: ClientPageProps) {
       />
       <Card 
         initialStory={story} 
-        allStories={stories}
         isFadingOut={false}
       />
 
