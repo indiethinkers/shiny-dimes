@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
 import Card from '@/components/Card';
 import { useStories } from '@/components/StoriesProvider';
 import type { Story } from '@/types';
@@ -40,40 +39,35 @@ function getRandomStory(stories: Story[]) {
 
 export default function Home() {
   const stories = useStories();
-  const router = useRouter();
+  const [currentStory, setCurrentStory] = useState<Story | null>(null);
   const [isFadingOut, setIsFadingOut] = useState(false);
 
-  // Get initial story without adding to recent list yet
-  const initialStory = sample(stories)!;
-
-  // Add initial story to recent list after component mounts
+  // Initialize with a random story
   useEffect(() => {
-    if (initialStory && !recentStories.includes(initialStory.slug)) {
+    if (!currentStory && stories.length > 0) {
+      const initialStory = sample(stories)!;
+      setCurrentStory(initialStory);
       recentStories.push(initialStory.slug);
       if (recentStories.length > MAX_RECENT) {
         recentStories.shift();
       }
     }
-  }, [initialStory]);
+  }, [stories, currentStory]);
+
+  const triggerTransition = () => {
+    if (isFadingOut || !currentStory) return; // Prevent multiple triggers
+
+    const nextStory = getRandomStory(stories);
+    setIsFadingOut(true);
+
+    // Wait for fade-out animation before updating the story
+    setTimeout(() => {
+      setCurrentStory(nextStory);
+      setIsFadingOut(false);
+    }, 300);
+  };
 
   useEffect(() => {
-    let navigationTimeout: NodeJS.Timeout | null = null;
-
-    const triggerTransition = () => {
-      if (isFadingOut) return; // Prevent multiple triggers
-
-      const nextStory = getRandomStory(stories);
-      router.prefetch(`/dime/${nextStory.slug}`); // Prefetch the next page
-      setIsFadingOut(true);
-
-      // Wait for fade-out animation (e.g., 300ms) before navigating
-      navigationTimeout = setTimeout(() => {
-        router.push(`/dime/${nextStory.slug}`);
-        // Reset fade state after navigation (optional, depends on desired effect)
-        // setIsFadingOut(false); 
-      }, 300); 
-    };
-
     const handleKeyPress = (event: KeyboardEvent) => {
       if (event.code === 'Space') {
         event.preventDefault();
@@ -96,15 +90,15 @@ export default function Home() {
     window.addEventListener('keydown', handleKeyPress);
     window.addEventListener('touchend', handleDoubleTap);
     
-    // Cleanup function
     return () => {
       window.removeEventListener('keydown', handleKeyPress);
       window.removeEventListener('touchend', handleDoubleTap);
-      if (navigationTimeout) {
-        clearTimeout(navigationTimeout);
-      }
     };
-  }, [router, stories]); // Correct dependency array
+  }, [isFadingOut, currentStory]); // Only depend on state that affects the event handlers
+
+  if (!currentStory) {
+    return null; // Or a loading state
+  }
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 relative">
@@ -128,9 +122,8 @@ export default function Home() {
         </a>
       </div>
       <Card 
-        initialStory={initialStory} 
-        allStories={stories}
-        isFadingOut={isFadingOut} // Pass fade state
+        initialStory={currentStory} 
+        isFadingOut={isFadingOut}
       />
 
       <div className="fixed bottom-4 left-4 text-sm text-gray-500">
