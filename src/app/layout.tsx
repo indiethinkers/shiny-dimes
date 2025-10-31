@@ -40,6 +40,14 @@ export default async function RootLayout({
 
   return (
     <html lang="en">
+      <head>
+        <script
+          defer
+          data-website-id="dfid_CvSjK411AuU6GH6gCkdm3"
+          data-domain="shinydimes.xyz"
+          src="https://datafa.st/js/script.js"
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
